@@ -14,10 +14,11 @@ module.exports = function (eleventyConfig) {
     );
   });
 
-  eleventyConfig.addPassthroughCopy({ "_includes/css": "css" });
-  eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy({ "public/css": "css" });
+  eleventyConfig.addPassthroughCopy({ "public/images": "images" });
+  eleventyConfig.addPassthroughCopy({ "public/fonts": "fonts" });
+  eleventyConfig.addPassthroughCopy({ "public/js": "js" });
+
   eleventyConfig.addDataExtension("yaml", (contents) =>
     yaml.safeLoad(contents)
   );
@@ -41,7 +42,7 @@ module.exports = function (eleventyConfig) {
     dataTemplateEngine: "njk",
 
     dir: {
-      input: ".",
+      input: "views",
       includes: "_includes",
       data: "_data",
       output: "_site",
