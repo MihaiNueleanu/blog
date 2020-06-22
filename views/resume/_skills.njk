@@ -1,0 +1,49 @@
+<section class="content" id="Skills">
+  <div class="container">
+    <h1 class="text-center margin-zero">
+      <span class="lnr lnr-code"></span>
+    </h1>
+    <h2 class="headline-strike"><span>Skills</span></h2>
+
+    
+    {% for key, items in skills %}
+    <div class="row general"> 
+      <div class="col-3">
+        <h5>{{key}}</h5>
+      </div>
+      <div class="col-9">
+      {% for item in items %}
+        <span class="pill">{{item}}</span>
+      {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="separator"></div>
+
+    <div class="row more">
+      <div class="col-6">
+        <h3>Languages</h3>
+        {% for key, value in languages %}
+        <div class="row">
+          <div class="col-4"><b>{{key}} </b></div>
+          <div class="col-8">{{value}}</div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="col-6">
+        <h3>Goals</h3>
+        <ul>
+        {% for item in goals %}
+          <li>{{item}}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+  </div>
+</section>
