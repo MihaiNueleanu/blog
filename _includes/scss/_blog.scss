@@ -1,0 +1,39 @@
+.blog {
+  .header {
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    padding: 0 64px;
+    margin-bottom: 40px;
+
+    img {
+      max-width: 200px;
+      margin-top: 10px;
+    }
+
+    .button {
+      float: right;
+      margin-top: 15px;
+      margin-left: 10px;
+    }
+  }
+
+  // Content section
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+
+    &-meta {
+      margin-top: -10px;
+      margin-bottom: 20px;
+      color: #999;
+      display: block;
+    }
+
+    img {
+      max-width: 100%;
+      margin: 40px auto;
+      // padding-left: 40px;
+      // padding-right: 40px;
+    }
+  }
+}

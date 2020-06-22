@@ -1,0 +1,201 @@
+.resume {
+  font-family: "Ubuntu", sans-serif;
+  background: #fafafa;
+  font-size: 1.8em;
+
+  p {
+    text-align: justify;
+    color: #444;
+    line-height: 1.5;
+    font-size: 1em;
+  }
+
+  section.content {
+    margin-bottom: 10rem;
+  }
+
+  .text-limiter {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .social-media {
+    margin-top: 150px;
+  }
+
+  .social-media a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .container {
+    max-width: 820px;
+  }
+
+  .header .container {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+
+  .header .container p {
+    text-align: center;
+    font-size: 2rem;
+    color: #484848;
+    letter-spacing: 5px;
+  }
+
+  .header .container h1 {
+    font-size: 6rem;
+  }
+
+  .header {
+    margin-bottom: 10rem;
+  }
+
+  @media (min-width: 550px) {
+    .header .container {
+      padding-top: 24rem;
+      padding-bottom: 18rem;
+    }
+  }
+
+  /*************************************************************************************************
+** HEADLINE STRIKETHROUGH
+*************************************************************************************************/
+  .headline-strike {
+    text-align: center;
+    position: relative;
+    margin-bottom: 6rem;
+  }
+  .headline-strike span {
+    background: #fafafa;
+    padding: 0 20px;
+    z-index: 10;
+    position: relative;
+  }
+  .headline-strike:before {
+    border-top: 1px solid #333;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 75%;
+    z-index: 0;
+  }
+
+  .separator {
+    max-width: 50%;
+    border-top: 1px solid #ddd;
+    margin: 5rem auto;
+  }
+
+  ul li {
+    text-indent: -3rem;
+    padding-left: 3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  /*************************************************************************************************
+  ** SECTIONS
+  *************************************************************************************************/
+
+  #Skills > .container > .row {
+    min-height: 60px;
+    margin-bottom: 20px;
+  }
+  #Skills .more .row {
+    margin-bottom: 1rem;
+  }
+
+  /*.icon { width:50px; height:50px; margin-top:10px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
+.icon svg { width:100%; height:100%; }*/
+
+  #About p {
+    font-size: 1.8rem;
+  }
+
+  #Contact {
+    font-size: 2.4rem;
+  }
+
+  @media print {
+    .hide-print {
+      display: none;
+    }
+
+    html {
+      font-size: 10px;
+    }
+
+    .header {
+      margin-bottom: 0;
+    }
+
+    .header .container {
+      padding-top: 4rem;
+      padding-bottom: 0rem;
+    }
+
+    .container {
+      max-width: 960px;
+    }
+
+    section.content {
+      margin-bottom: 0;
+    }
+
+    section.content .container {
+      width: 100%;
+    }
+
+    .sub-title {
+      padding-bottom: 0.3rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    #Skills > .container > .row {
+      margin-bottom: 0;
+    }
+
+    #Skills h5 {
+      margin-bottom: 0;
+    }
+
+    .separator {
+      border: none;
+      margin: 2rem auto;
+    }
+
+    .text-limiter {
+      max-width: 90%;
+    }
+
+    #Education {
+      page-break-before: always;
+    }
+
+    #Contact {
+      margin-top: 3rem;
+    }
+
+    #Contact .row:first-of-type {
+      margin-top: 0 !important;
+    }
+
+    #Contact h3 {
+      font-size: 2.5rem;
+    }
+  }
+}
