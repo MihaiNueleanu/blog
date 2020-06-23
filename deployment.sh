@@ -3,7 +3,7 @@ PIPELINE=/srv/www/nueleanu-pipeline
 
 mkdir -p $TARGET
 
-if [ ! -d $ ]; then
+if [ ! -d $PIPELINE ]; then
   git clone https://github.com/MihaiNueleanu/blog $PIPELINE
 else
   cd $PIPELINE
