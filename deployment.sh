@@ -6,7 +6,8 @@ mkdir -p $TARGET
 if [ ! -d $ ]; then
   git clone https://github.com/MihaiNueleanu/blog $PIPELINE
 else
-  git pull $PIPELINE
+  cd $PIPELINE
+  git pull
 fi
 
 cd $PIPELINE
