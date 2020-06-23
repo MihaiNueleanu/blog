@@ -1,16 +1,28 @@
-mkdir -p /srv/www/nueleanu
+TARGET=/srv/www/nueleanu
+PIPELINE=/srv/www/nueleanu-pipeline
 
+mkdir -p $TARGET
 
-if [ ! -d /srv/www/nueleanu-pipeline ]; then
-  git clone https://github.com/MihaiNueleanu/blog /srv/www/nueleanu-pipeline
+if [ ! -d $ ]; then
+  git clone https://github.com/MihaiNueleanu/blog $PIPELINE
 else
-  PREVIOUS_VERSION=$(cat /srv/www/nueleanu-pipeline/.git/HEAD)
-  git pull /srv/www/nueleanu-pipeline
+  git pull $PIPELINE
 fi
 
-cd /srv/www/nueleanu-pipeline
+cd $PIPELINE
 
-npm install
-npm run build
+[ $(cat previous-version.txt 2> /dev/null) ] && PREVIOUS=$(cat previous-version.txt) || PREVIOUS='NULL'
+CURRENT=$(git rev-parse HEAD)
 
-cp -a ./_site/. /srv/www/nueleanu
+echo 'PREVIOUS VERSION --> '$PREVIOUS;
+echo 'CURRENT VERSION --> '$CURRENT;
+
+if [ $CURRENT != $PREVIOUS ]; then
+  npm install
+  npm run build
+
+  cp -a ./_site/. $TARGET
+
+  git rev-parse HEAD > previous-version.txt
+fi
+
