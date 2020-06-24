@@ -14,6 +14,14 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
+
+  eleventyConfig.addFilter("absoluteUrl", (rel) => {
+    return `https://nueleanu.com${rel}`;
+  });
+
   eleventyConfig.addPassthroughCopy({ "public/css": "css" });
   eleventyConfig.addPassthroughCopy({ "public/images": "images" });
   eleventyConfig.addPassthroughCopy({ "public/fonts": "fonts" });
