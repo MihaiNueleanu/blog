@@ -10,7 +10,7 @@
     font-size: 1em;
   }
 
-  section.content {
+  section.content-block {
     margin-bottom: 10rem;
   }
 
@@ -141,15 +141,15 @@
       max-width: 960px;
     }
 
-    section.content {
+    section.content-block {
       margin-bottom: 0;
+
+      .container {
+        width: 100%;
+      }
     }
 
-    section.content .container {
-      width: 100%;
-    }
-
-    .sub-title {
+    section.content .sub-title {
       padding-bottom: 0.3rem;
     }
 

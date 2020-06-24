@@ -1,11 +1,6 @@
-/*************************************************************************************************
-** TYPOGRAPHY
-*************************************************************************************************/
-
 body,
 html {
   font-family: Georgia, serif;
-  // background: #fafafa;
 }
 
 body {
@@ -23,24 +18,25 @@ h6 {
 }
 
 p {
-  // text-align: justify;
   color: #444;
   line-height: 1.5;
-  font-size: 1.2em;
 }
 
 .title {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 .sub-title {
   padding-bottom: 1em;
   font-size: 1.9rem;
   font-weight: 500;
 }
+
 .date {
   color: #999;
 }
+
 .text-center {
   text-align: center;
 }
@@ -49,43 +45,8 @@ p {
   margin: 0;
 }
 
-// Header section
-@import "./blog";
-
-.button {
-  text-decoration: none;
-  background: none transparent;
-  border: 1px solid black;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 14px;
-  line-height: 20px;
-
-  &-primary,
-  &-primary:hover {
-    border-color: rgba(2, 184, 117, 1);
-    color: rgba(28, 153, 99, 1);
-  }
-
-  &-primary:hover {
-    color: #444;
-  }
-
-  &-simple,
-  &-simple:hover {
-    border-color: transparent;
-  }
-
-  &:link,
-  &:hover {
-    text-decoration: none;
-  }
-
-  i {
-    margin-right: 7px;
-    font-size: 1.4em;
-    vertical-align: bottom;
-  }
+.margin-top {
+  margin-top: 2em;
 }
 
 .center {
@@ -95,6 +56,44 @@ p {
   transform: translate(-50%, -50%);
 }
 
+.latest-posts {
+  .date {
+    width: 130px;
+    display: inline-block;
+  }
+}
+
+.brief {
+  margin-top: 4em;
+
+  .my-face {
+    background-image: url(/images/face2.png);
+    background-size: cover;
+    background-position: center center;
+    height: 120px;
+    width: 120px;
+    border-radius: 300px;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 3em;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0.4em;
+    a {
+      margin-right: 1em;
+    }
+  }
+}
+
+@import "./header";
+@import "./content";
+@import "./button";
+@import "./blog";
 @import "./columns";
 @import "./resume";
 @import "./grid";

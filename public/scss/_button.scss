@@ -1,0 +1,35 @@
+.button {
+  text-decoration: none;
+  background: none transparent;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 20px;
+
+  &-primary,
+  &-primary:hover {
+    border-color: rgba(2, 184, 117, 1);
+    color: rgba(28, 153, 99, 1);
+  }
+
+  &-primary:hover {
+    color: #444;
+  }
+
+  &-simple,
+  &-simple:hover {
+    border-color: transparent;
+  }
+
+  &:link,
+  &:hover {
+    text-decoration: none;
+  }
+
+  i {
+    margin-right: 7px;
+    font-size: 1.4em;
+    vertical-align: bottom;
+  }
+}

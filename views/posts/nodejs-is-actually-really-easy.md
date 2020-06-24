@@ -2,6 +2,7 @@
 layout: blog.njk
 title: Nodejs is actually really easy. Hold my beer
 date: 2020-06-20
+tags: ["post", "nodejs", "node"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet odio id quam vulputate ultrices. Donec facilisis magna nec molestie porta. Curabitur vestibulum ipsum sed urna pretium, id ornare massa consectetur. Vestibulum placerat fermentum volutpat. In ex lorem, varius sed enim et, molestie efficitur neque. Curabitur turpis lectus, sagittis a leo molestie, posuere accumsan diam. Mauris et condimentum tortor.

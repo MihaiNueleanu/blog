@@ -1,0 +1,19 @@
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2em;
+
+  &-meta {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #999;
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    margin: 40px auto;
+    // padding-left: 40px;
+    // padding-right: 40px;
+  }
+}
