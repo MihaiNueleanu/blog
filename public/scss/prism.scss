@@ -8,8 +8,10 @@ pre[class*="language-"] {
   color: #eee;
   background: #2f2f2f;
   font-family: Roboto Mono, monospace;
-  font-size: 1em;
+  font-size: 12px;
   line-height: 1.5em;
+  padding-left: 0;
+  padding-right: 0;
 
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -45,7 +47,7 @@ pre[class*="language-"] {
   overflow: auto;
   position: relative;
   margin: 2em 1em;
-  padding: 1.25em 1em;
+  padding: 1em 1.25em;
   border-radius: 4px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
 }

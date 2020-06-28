@@ -26,6 +26,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public/images": "images" });
   eleventyConfig.addPassthroughCopy({ "public/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "public/js": "js" });
+  // eleventyConfig.addPassthroughCopy("posts/**/*.png");
 
   eleventyConfig.addDataExtension("yaml", (contents) =>
     yaml.safeLoad(contents)
@@ -44,7 +45,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   return {
-    templateFormats: ["md", "njk", "html", "liquid"],
+    templateFormats: ["md", "njk", "html", "liquid", "png"],
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",

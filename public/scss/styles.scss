@@ -56,6 +56,14 @@ p {
   transform: translate(-50%, -50%);
 }
 
+code {
+  color: crimson;
+  background-color: #f1f1f1;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: Consolas, "courier new";
+}
+
 .latest-posts {
   .date {
     width: 130px;

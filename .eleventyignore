@@ -1,1 +1,3 @@
 **/_*.njk
+node_modules/
+_site/**/*.png
