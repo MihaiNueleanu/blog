@@ -25,7 +25,11 @@ author: Mihai Nueleanu
       <small class="content-meta">{{ date | readableDate }} / {{ author }}</small>
       
       {{ content | safe }}
+
+      {% include 'brief.njk' %}
     </div>
+
+
 
     <script>
       mediumZoom(document.querySelectorAll('img'))

@@ -1,6 +1,6 @@
 ---
 layout: blog.njk
-title: 4 easy steps to a Node.js REST API
+title: "Node.js is easy: 4 steps to a REST API"
 date: 2020-06-28
 tags: ["post", "nodejs", "node"]
 ---
