@@ -2,7 +2,7 @@
 layout: blog.njk
 title: "Node.js is easy: 4 steps to a REST API"
 date: 2020-06-28
-tags: ["post", "nodejs", "node"]
+tags: ["post", "nodejs", "node", "published"]
 ---
 
 ![Landing image](./landing.png)
