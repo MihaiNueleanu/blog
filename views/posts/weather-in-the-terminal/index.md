@@ -1,6 +1,6 @@
 ---
 layout: blog.njk
-title: "You'll want to use it all day: Weather in the terminal. "
+title: "You'll want to use it all day: Weather in the terminal"
 date: 2020-06-30
 tags: ["post", "bash", "terminal", "shell", "weather", "published"]
 ---
