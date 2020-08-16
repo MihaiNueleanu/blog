@@ -16,4 +16,8 @@
     // padding-left: 40px;
     // padding-right: 40px;
   }
+
+  @media all and (max-width: 600px) {
+    padding: 0 20px;
+  }
 }

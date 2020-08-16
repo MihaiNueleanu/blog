@@ -14,4 +14,12 @@
     margin-top: 15px;
     margin-left: 10px;
   }
+
+  @media all and (max-width: 600px) {
+    padding: 0 20px;
+
+    .button {
+      display: none;
+    }
+  }
 }
