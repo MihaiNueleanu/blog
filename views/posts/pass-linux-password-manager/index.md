@@ -2,7 +2,7 @@
 layout: blog.njk
 title: "Pass: the free, secure password manager"
 date: 2020-09-03
-tags: ["post", "pass", "linux", "password", "manager"]
+tags: ["post", "pass", "linux", "password", "manager", "published"]
 ---
 
 ![Pass](./pass.png)
