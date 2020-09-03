@@ -5,8 +5,6 @@ date: 2020-09-03
 tags: ["post", "pass", "linux", "password", "manager", "published"]
 ---
 
-![Pass](./pass.png)
-
 How do you manage your passwords? Google's password service? 1Password? LastPass? None of the above?
 
 Oh well.. all of that is bloat anyways. Here's how you do it in the terminal, easy and securely.
