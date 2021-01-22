@@ -11,29 +11,30 @@ General:
   - Team management
   - UI/UX
 Languages:
-  - JavaScript
+  - JavaScript / Typescript
   - C#
-  - Java
   - Python
+  - Java
   - PHP
   - SCSS
 Frameworks:
-  - Vue.js
-  - Node.js
   - React
-  - Angular
-  - Typescript
+  - Node.js
+  - Vue.js
+  - dotNET core
+  - Django
+  - Svelte
   - SpringBoot
-  - .Net Core
+  - Angular
 Server:
   - Kubernetes
   - OpenShift
   - Docker
-  - Nginx
-  - Apache
-  - Serverless
+  - Serverless (Lambda)
   - AWS
   - IBM Cloud
+  - Heroku
+  - DigitalOcean
 Database:
   - MongoDB
   - SQL Server

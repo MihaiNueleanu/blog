@@ -34,7 +34,7 @@ To summarize:
 - Keep the **GPG** key **safe**
 - **Remember** your master **password**
 
-  ...or else you **lose** everything ☠️
+...or else you **lose** everything ☠️
 
 ## 3. Create a password store
 

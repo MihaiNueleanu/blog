@@ -22,6 +22,10 @@ p {
   line-height: 1.5;
 }
 
+li p {
+  display: inherit;
+}
+
 .title {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -89,7 +93,7 @@ code {
   margin-top: 4em;
 
   .my-face {
-    background-image: url(/images/face2.png);
+    background-image: url(/images/face.jpg);
     background-size: cover;
     background-position: center center;
     height: 120px;

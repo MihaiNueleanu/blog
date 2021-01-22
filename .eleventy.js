@@ -28,9 +28,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public/js": "js" });
   // eleventyConfig.addPassthroughCopy("posts/**/*.png");
 
-  eleventyConfig.addDataExtension("yaml", (contents) =>
-    yaml.safeLoad(contents)
-  );
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
