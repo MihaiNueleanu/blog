@@ -1,4 +1,5 @@
 General:
+  - Engineering
   - DevOps
   - Project Management
   - Product Ownership
@@ -37,8 +38,8 @@ Server:
   - DigitalOcean
 Database:
   - MongoDB
-  - SQL Server
   - PostgreSQL
+  - SQL Server
   - CouchDB
   - Neo4j
 Software:
