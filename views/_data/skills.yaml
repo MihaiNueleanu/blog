@@ -40,9 +40,9 @@ Server:
 Database:
   - MongoDB
   - PostgreSQL
+  - Kafka
   - SQL Server
   - CouchDB
-  - Neo4j
 Software:
   - Linux
   - Git
