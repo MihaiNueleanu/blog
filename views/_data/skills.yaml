@@ -48,6 +48,10 @@ Software:
   - Git
   - Jenkins
   - VS Code
+  - Sentry
+  - DataDog
+  - LogDNA
+  - GitHub Actions
   - Jira
   - Windows
   - Mac
