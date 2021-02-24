@@ -28,7 +28,7 @@ Frameworks:
   - Svelte
   - SpringBoot
   - Angular
-Server:
+Infrastructure:
   - Kubernetes
   - OpenShift
   - Docker
@@ -43,9 +43,11 @@ Database:
   - Kafka
   - SQL Server
   - CouchDB
-Software:
+Misc:
   - Linux
   - Git
+  - REST
+  - GraphQL
   - Jenkins
   - VS Code
   - Sentry
