@@ -43,6 +43,12 @@ Database:
   - Kafka
   - SQL Server
   - CouchDB
+Tests:
+  - Cypress (e2e web)
+  - Jest (node and web)
+  - PyTest (python)
+  - XUnit (dotnet core)
+  - JUnit (java)
 Misc:
   - Linux
   - Git
