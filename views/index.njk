@@ -36,7 +36,7 @@
 
       <div class="latest-posts">
         <h2>Latest posts</h2>
-        {%- for post in collections.published -%}
+        {%- for post in collections.published | reverse -%}
           <div class="latest-posts__item">
             <span class="date">{{post.date | readableDate}} </span>
             <a href="{{post.url}}">{{ post.data.title }}</a>
