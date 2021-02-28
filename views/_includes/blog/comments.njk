@@ -1,0 +1,87 @@
+<div id="comments">
+  <h3>Comments</h3>
+
+  <div class="comment-submit">
+    <input type="text" v-model="message.name" />
+
+    <textarea
+      v-model="message.body"
+      name="messagebody"
+      cols="30"
+      rows="10"
+    ></textarea>
+
+    <button class="button" @click="sendComment">submit comment</button>
+  </div>
+
+  <div class="comment-list">
+    <div v-for="item in messages">
+      <h5 v-text="item.name"></h5>
+      <p v-text="item.body"></p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script>
+  function makeid(length) {
+    var result = "";
+    var characters =
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    var charactersLength = characters.length;
+    for (var i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  }
+
+  function getUniqueToken() {
+    const key = "discussionId";
+    const token = localStorage.getItem(key);
+
+    if (!token) {
+      const newToken = makeid(12);
+      localStorage.setItem(key, newToken);
+      return newToken;
+    }
+
+    return token;
+  }
+</script>
+<script>
+  const base = "http://127.0.0.1:8000";
+
+  const app = new Vue({
+    el: "#comments",
+    data: {
+      messages: [],
+      message: {
+        path: window.location.pathname,
+        unique_token: getUniqueToken(),
+        name: "Author",
+        body: "Please enter a comment here...",
+      },
+    },
+    async mounted() {
+      this.messages = await this.getComments();
+    },
+    methods: {
+      async getComments() {
+        const url = `${base}/api/discussions?path=${window.location.pathname}`;
+        const response = await fetch(url);
+        const json = response.json();
+        return json;
+      },
+      async sendComment() {
+        const url = `${base}/api/discussions`;
+        const payload = {};
+        const response = await fetch(url, {
+          method: "PUT",
+          body: JSON.stringify(this.message),
+        });
+
+        this.messages = await this.getComments();
+      },
+    },
+  });
+</script>
