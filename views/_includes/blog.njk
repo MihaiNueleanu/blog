@@ -25,18 +25,20 @@ author: Mihai Nueleanu
       <h1>{{ title }}</h1>
       <small class="content-meta">{{ date | readableDate }} / {{ author }}</small>
       
-      {{ content | safe }}
+      <div class="article">
+        {{ content | safe }}
+      </div>
 
-
+      <br><br><br>
+      {% include 'blog/tags.njk' %}
       {% include 'blog/comments.njk' %}
-
       {% include 'brief.njk' %}
     </div>
     
 
 
     <script>
-      mediumZoom(document.querySelectorAll('.content img'))
+      mediumZoom(document.querySelectorAll('.content .article img'))
     </script>
   </body>
 </html>

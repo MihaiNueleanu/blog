@@ -1,6 +1,62 @@
 #comments {
+  margin-top: 1em;
+
+  .claps {
+    display: inline-block;
+    align-content: center;
+    margin: 1em 0;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+      transform: scaleX(-1);
+      vertical-align: bottom;
+    }
+
+    > span {
+      margin-left: 3px;
+      line-height: 40px;
+      font-size: 1.2em;
+      vertical-align: bottom;
+    }
+  }
+
+  .headline {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .comment-submit {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1em;
+
+    textarea {
+      width: 100%;
+      resize: vertical;
+    }
+  }
+
+  .comment {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  h5 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
   }
 }

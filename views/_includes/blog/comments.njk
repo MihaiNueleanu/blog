@@ -1,21 +1,37 @@
 <div id="comments">
-  <h3>Comments</h3>
+  <div class="claps" @click="sendClap">
+    <img src="/images/clap.svg" alt="Clap" />
+    <span><span v-text="numberOfClaps"></span> Claps</span>
+  </div>
 
-  <div class="comment-submit">
-    <input type="text" v-model="message.name" />
+  <div class="headline">
+    <h3>Comments</h3>
+    <button
+      class="button button-simple"
+      @click="sendingComment = !sendingComment"
+    >
+      Send comment
+    </button>
+  </div>
+
+  <div class="comment-submit" v-if="sendingComment">
+    <input type="text" v-model="message.name" placeholder="What's your name?" />
 
     <textarea
       v-model="message.body"
       name="messagebody"
       cols="30"
       rows="10"
+      placeholder="Share your thoughts here..."
     ></textarea>
 
-    <button class="button" @click="sendComment">submit comment</button>
+    <button class="button" @click="sendComment" :disabled="!canSubmit">
+      Submit Comment
+    </button>
   </div>
 
   <div class="comment-list">
-    <div v-for="item in messages">
+    <div class="comment" v-for="item in messages">
       <h5 v-text="item.name"></h5>
       <p v-text="item.body"></p>
     </div>
@@ -50,26 +66,34 @@
 </script>
 <script>
   const base = "http://127.0.0.1:8000";
+  const blogPath = window.location.pathname;
+  const uniqueToken = getUniqueToken();
 
   const app = new Vue({
     el: "#comments",
     data: {
       messages: [],
+
       message: {
-        path: window.location.pathname,
-        unique_token: getUniqueToken(),
-        name: "Author",
-        body: "Please enter a comment here...",
+        path: blogPath,
+        unique_token: uniqueToken,
+        name: "",
+        body: "",
       },
+      sendingComment: false,
+      numberOfClaps: 0,
     },
     async mounted() {
-      this.messages = await this.getComments();
+      [this.messages, this.numberOfClaps] = await Promise.all([
+        this.getComments(),
+        this.getClaps(),
+      ]);
     },
     methods: {
       async getComments() {
-        const url = `${base}/api/discussions?path=${window.location.pathname}`;
+        const url = `${base}/api/discussions?path=${blogPath}`;
         const response = await fetch(url);
-        const json = response.json();
+        const json = await response.json();
         return json;
       },
       async sendComment() {
@@ -81,6 +105,28 @@
         });
 
         this.messages = await this.getComments();
+        sendingComment = false;
+      },
+      async sendClap() {
+        const url = `${base}/api/clap`;
+        const payload = { path: blogPath, unique_token: uniqueToken };
+        await fetch(url, {
+          method: "PUT",
+          body: JSON.stringify(this.message),
+        });
+
+        this.numberOfClaps = await this.getClaps();
+      },
+      async getClaps() {
+        const url = `${base}/api/clap?path=${blogPath}`;
+        const response = await fetch(url);
+        const json = await response.json();
+        return json.claps;
+      },
+    },
+    computed: {
+      canSubmit() {
+        return this.message.name && this.message.body;
       },
     },
   });

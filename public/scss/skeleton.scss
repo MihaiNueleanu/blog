@@ -272,6 +272,7 @@ a:hover {
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -298,15 +299,24 @@ input[type="tel"],
 input[type="url"],
 input[type="password"],
 textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  border: 1px solid #222;
+  border-radius: 0;
+  color: #222;
+  font-size: 16px;
+  font-family: "Open Sans";
+  line-height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 50px;
 }
 textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  min-height: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -316,7 +326,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #000;
   outline: 0;
 }
 label,
