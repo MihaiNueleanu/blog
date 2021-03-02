@@ -28,7 +28,7 @@ jobs:
         with:
           key: ${{ secrets.KUBERNETES_SSH_KEY_PRIV }}
           known_hosts: |
-            github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQASvUV2IoHovKIj5Gxmn/HrIsWAJNq8+xcFUKzV+RFsm2qqAbVx3ggSzqLRMf7nDtOqdssEaSXqlLJpn+K/Yn09Ga4XOPlgyMwNfN3kC2tvSprW+xaDvy+s+URCos2tAz4gn96DF4umaWiMY9Up+QZkAflF5+sxOqUkUOsNnyrqaFdhvft2OnAsI7JNymr56CGxgDVi0ehCvFcbK32fn5xp9Qkl6srCUi8pa6YKHTEG1vfTN9qjyyrgbDyhUv3TJZz95GlqFeIZaT+efz/dwX+p2R1CQEyQc2nQUDJUFHVB+LvG8RN8HxRpK8epx3WaeBOm7TAagk8aK5f3yTuljCBkKb5jFPAuwlEe3AxB2XW/Bng3dsWJRdSPDdDrfg0d5Cuc8EELh/gFau8z78eyuoXOYl/yn1lH4BTa1Z0iZsHKTCiDUDuLG7ts4k050W4xW9muugDsb5GcimpNzz0vx/zTIxQUvogZ5zdWRTpDiQs/snhP5IRlhMKdXoLwVR8hgGmCJEvTFWusXBLMx+gUNS56zfnbHEc7pE9xdzCSIs8Zt7nEDDZ+cp0zK1wMOI0glMACFBubXjh6QvTF704lVK8zytNlVJcW3mVqZ+ktqgysGXXg9G3dkKQrny/3Yo3G9vPAte5AojuhYgqda2G0xOxr1yUIJe1vJFMDoXfyzccw== minu@crimetech.dk
+            github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDmybfj5ppELz83p5uopJaETdudJ4sSLYCI/duykbCo5t5eyGBmmYsTOIlOw7RFkpXIT2++iETZZTQyCN/24nPTqyqQfP5JF1tMbZtqFx26mLg0IWHlx0MSjSaZPHZDRnJLoh3xQoG0Kfognd9iZwDHA42+is7ighPMFLP+nWigkqXslbtsao9nPS6Rs7X2K9YUfoOBljo1jEtrAm7WGoQsUNKO/EaHETe3wpIVvlVeTQii7oV3iJH6dBl5PO0DFbvtXBoy/ZgK4/XnwCvHqsnTGTLwA5IctRsQNgqhAFvTg/ZczlZkQ9/Wa9LWw0nPyO82JpdglDFjm5LapoMBjLShTRNr+cPUQxuR2Ek8OlMG1KiXYF6XlBqbFG1+enPJfIBuANWOEhQ+5aHsHb9t0FpibfbAgxu7fgBV7w+9JdrUCQnGq3XkeLs0SBslbt0EdmBxRmVEUSMH09rkOf/C8h0r6oFrM561YMwR8Afw2MxeVvdXuEf1BNoWcjvNhbz8topTcjYGvncSOZnAv+GDil7wV5mppdXqhb6oKB1w1dnl07VdSFFqVma1Kso+ySZrq27qOR66sEec9rkdC8plHQnDDV13RftYxpGvGG4qGBaxReEib8sUrRDriHm6ItDjtZSGW9gr4z5A2u7uJ5db2g486Gq3dVkisTAgx98SkscusQ== mihai@nueleanu.com
       - name: update repo
         run: |
           # VARIABLES
