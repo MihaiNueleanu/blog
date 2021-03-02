@@ -26,6 +26,7 @@ jobs:
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2.1.0
         with:
+          name: personal-kubernetes
           key: ${{ secrets.KUBERNETES_SSH_KEY_PRIV }}
           known_hosts: |
             github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMs5oGlJKESfkxpVllHvU6FGmneNbnGSwXDyEsTqXqLs mihai@nueleanu.com
