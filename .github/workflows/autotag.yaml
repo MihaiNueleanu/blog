@@ -24,7 +24,7 @@ jobs:
           skip-on-empty: "false"
 
       - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2.1.0
+        uses: shimataro/ssh-key-action@v2.2.0
         with:
           name: personal-kubernetes
           key: ${{ secrets.KUBERNETES_SSH_KEY_PRIV }}
