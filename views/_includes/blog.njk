@@ -12,6 +12,7 @@ author: Mihai Nueleanu
     <link rel="stylesheet" type="text/css" href="/css/reset.css"></link>
     <link rel="stylesheet" type="text/css" href="/css/skeleton.css"></link>
     <link rel="stylesheet" type="text/css" href="/css/styles.css"></link>
+    <link rel="stylesheet" type="text/css" href="/css/comments.css"></link>
     <link rel="stylesheet" type="text/css" href="/css/prism.css"></link>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"></script>
@@ -24,15 +25,20 @@ author: Mihai Nueleanu
       <h1>{{ title }}</h1>
       <small class="content-meta">{{ date | readableDate }} / {{ author }}</small>
       
-      {{ content | safe }}
+      <div class="article">
+        {{ content | safe }}
+      </div>
 
+      <br><br><br>
+      {% include 'blog/tags.njk' %}
+      {% include 'blog/comments.njk' %}
       {% include 'brief.njk' %}
     </div>
-
+    
 
 
     <script>
-      mediumZoom(document.querySelectorAll('.content img'))
+      mediumZoom(document.querySelectorAll('.content .article img'))
     </script>
   </body>
 </html>

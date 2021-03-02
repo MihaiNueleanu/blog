@@ -1,0 +1,13 @@
+.tags {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+
+  .tag {
+    display: block;
+    background-color: rgba(242, 242, 242, 1);
+    color: rgba(117, 117, 117, 1);
+    padding: 3px 10px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+}

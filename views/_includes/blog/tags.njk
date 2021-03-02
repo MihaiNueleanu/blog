@@ -1,0 +1,5 @@
+<div class="tags">
+  {% for tag in tags %} {% if tag != "post" and tag != "published" %}
+  <div class="tag">{{ tag }}</div>
+  {% endif %} {% endfor %}
+</div>

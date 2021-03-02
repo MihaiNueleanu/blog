@@ -3,9 +3,14 @@
   background: none transparent;
   border: 1px solid black;
   padding: 8px 16px;
-  border-radius: 4px;
-  font-size: 14px;
+  border-radius: 0;
+  font-size: 16px;
   line-height: 20px;
+  min-height: 50px;
+
+  &:focus {
+    outline: 2px solid #000;
+  }
 
   &-primary,
   &-primary:hover {
@@ -20,6 +25,16 @@
   &-simple,
   &-simple:hover {
     border-color: transparent;
+    padding: 0;
+    min-height: initial;
+    color: #222;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    s &:focus {
+      outline: none;
+    }
   }
 
   &:link,

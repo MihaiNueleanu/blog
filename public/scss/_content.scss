@@ -10,11 +10,11 @@
     display: block;
   }
 
-  img {
-    max-width: 100%;
-    margin: 40px auto;
-    // padding-left: 40px;
-    // padding-right: 40px;
+  .article {
+    img {
+      max-width: 100%;
+      margin: 40px auto;
+    }
   }
 
   @media all and (max-width: 600px) {
