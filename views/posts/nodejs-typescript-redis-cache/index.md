@@ -23,7 +23,7 @@ const cache = new RedisCache(60);
 
 app.get("/products/recommended", async (req: Request, res: Response) => {
   // Cache by userId as key
-  const products = await cache.get<Product[]>(req.userId, () =>{
+  const products = await cache.get<Product[]>(req.userId, () => {
     // Here's the function which refreshes the cache
     return RecommendationModel.find(req.userId)
   )};
