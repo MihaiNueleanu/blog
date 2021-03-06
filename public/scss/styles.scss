@@ -87,6 +87,12 @@ code ::selection {
     display: inline-block;
   }
 
+  @media all and (min-width: 601px) {
+    &__item {
+      display: flex;
+    }
+  }
+
   @media all and (max-width: 600px) {
     &__item {
       margin-bottom: 1em;
@@ -138,6 +144,10 @@ code ::selection {
       margin-right: 0.3em;
     }
   }
+}
+
+iframe {
+  margin-bottom: 10px;
 }
 
 @import "./header";
