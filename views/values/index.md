@@ -1,6 +1,7 @@
 ---
 layout: blog.njk
 title: "Core values"
+hideDiscussion: true
 ---
 
 An internal monologue written to myself. What are my core values? How should I steer my life towards maximizing the values that are important to me?
