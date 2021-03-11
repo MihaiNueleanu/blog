@@ -52,7 +52,7 @@ I'm agnostic when it comes to any tools, and programming languages are no differ
 - **Postgres** - Favorite SQL database
 - **MongoDB** - Favorite general purpose database
 - **Redis** - Favorite "cache" database
-- **Kafka** - Favorite event streaming platform (database? close enough)
+- **Kafka** - Favorite event streaming platform (database? it's complicated...)
 
 ---
 
@@ -70,3 +70,5 @@ I'm agnostic when it comes to any tools, and programming languages are no differ
 - [Eleventy](https://www.11ty.dev/) - Simplest static site generator
 - [Syncthing](https://syncthing.net/) - Simple file sync between machines
 - [Neo4j](https://neo4j.com/) - Graph Database for when you're sick of joins
+- [Beekeeper studio](https://www.beekeeperstudio.io/) - The smoothest, best looking, and easiest to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more.
+- [Robo 3T](https://robomongo.org/) - Native and cross-platform MongoDB manager
