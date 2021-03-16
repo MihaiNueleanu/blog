@@ -1,3 +1,12 @@
+# [1.14.0](https://github.com/MihaiNueleanu/blog/compare/1.13.1...1.14.0) (2021-03-16)
+
+
+### Features
+
+* remove permalink ([3543767](https://github.com/MihaiNueleanu/blog/commit/3543767c2246efef8a965640d5843db7c511fa24))
+
+
+
 ## [1.13.1](https://github.com/MihaiNueleanu/blog/compare/1.13.0...1.13.1) (2021-03-16)
 
 
@@ -26,10 +35,6 @@
 ### Features
 
 * added port forwarding article ([1fbcb20](https://github.com/MihaiNueleanu/blog/commit/1fbcb20407c0fe8b8cfc758b26e73589e985d99c))
-
-
-
-## [1.10.1](https://github.com/MihaiNueleanu/blog/compare/1.10.0...1.10.1) (2021-03-11)
 
 
 
