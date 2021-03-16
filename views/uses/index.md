@@ -20,6 +20,7 @@ The following is a list of my favorite tools, most of which I use in my daily li
 - **Shell** - zsh (with oh-my-zsh)
 - **WSL** - absolute must when on Windows
 - **GitHub** - primary source control for all projects
+- **Pass** - the standard unix password manager
 
 ---
 
