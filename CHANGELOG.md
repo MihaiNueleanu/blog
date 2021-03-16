@@ -1,3 +1,7 @@
+## [1.13.1](https://github.com/MihaiNueleanu/blog/compare/1.13.0...1.13.1) (2021-03-16)
+
+
+
 # [1.13.0](https://github.com/MihaiNueleanu/blog/compare/1.12.0...1.13.0) (2021-03-16)
 
 
@@ -26,15 +30,6 @@
 
 
 ## [1.10.1](https://github.com/MihaiNueleanu/blog/compare/1.10.0...1.10.1) (2021-03-11)
-
-
-
-# [1.10.0](https://github.com/MihaiNueleanu/blog/compare/1.9.2...1.10.0) (2021-03-11)
-
-
-### Features
-
-* list of stuff i use ([595f100](https://github.com/MihaiNueleanu/blog/commit/595f10075d235cbe1d221da7eba05df8b7b90f47))
 
 
 
