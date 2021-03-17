@@ -1,3 +1,12 @@
+# [1.16.0](https://github.com/MihaiNueleanu/blog/compare/1.15.0...1.16.0) (2021-03-17)
+
+
+### Features
+
+* added cover image to gpg key sharing article ([161c518](https://github.com/MihaiNueleanu/blog/commit/161c518e73a053f72ab8a76561a64733d67aaf53))
+
+
+
 # [1.15.0](https://github.com/MihaiNueleanu/blog/compare/1.14.0...1.15.0) (2021-03-17)
 
 
@@ -26,15 +35,6 @@
 ### Features
 
 * skip version in package.json (docker build faster ([4804c9b](https://github.com/MihaiNueleanu/blog/commit/4804c9bc6d103ba1069acecd3e9f1989ee9c1449))
-
-
-
-# [1.12.0](https://github.com/MihaiNueleanu/blog/compare/1.11.0...1.12.0) (2021-03-16)
-
-
-### Features
-
-* updated values list ([1f46267](https://github.com/MihaiNueleanu/blog/commit/1f462675b3ce6de2102834d5466e4d5020c9187d))
 
 
 
