@@ -11,6 +11,8 @@ tags:
 date: 2021-03-16
 ---
 
+![Cover image](./cover.jpg)
+
 So, let's say you've setup pass (the password manager) on your computer. But then, what if you want the same password manager on your phone? How about if you have a second computer that you want to share the passwords with?
 
 In this post I won't go into the specifics of using pass on other platforms, **but** I will share a quick and simple example of how you could share your GPG key between devices.
