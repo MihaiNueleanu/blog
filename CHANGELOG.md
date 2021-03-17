@@ -1,3 +1,12 @@
+# [1.15.0](https://github.com/MihaiNueleanu/blog/compare/1.14.0...1.15.0) (2021-03-17)
+
+
+### Features
+
+* added plausible ([5130bfe](https://github.com/MihaiNueleanu/blog/commit/5130bfed5c2a8f4623005c3e55da4c0d0bb39e97))
+
+
+
 # [1.14.0](https://github.com/MihaiNueleanu/blog/compare/1.13.1...1.14.0) (2021-03-16)
 
 
@@ -26,15 +35,6 @@
 ### Features
 
 * updated values list ([1f46267](https://github.com/MihaiNueleanu/blog/commit/1f462675b3ce6de2102834d5466e4d5020c9187d))
-
-
-
-# [1.11.0](https://github.com/MihaiNueleanu/blog/compare/1.10.1...1.11.0) (2021-03-14)
-
-
-### Features
-
-* added port forwarding article ([1fbcb20](https://github.com/MihaiNueleanu/blog/commit/1fbcb20407c0fe8b8cfc758b26e73589e985d99c))
 
 
 
