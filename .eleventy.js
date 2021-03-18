@@ -41,7 +41,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   return {
-    templateFormats: ["md", "njk", "html", "liquid", "png", "jpg", "jpeg"],
+    templateFormats: [
+      "md",
+      "njk",
+      "11ty.js",
+      "html",
+      "liquid",
+      "png",
+      "jpg",
+      "jpeg",
+    ],
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
