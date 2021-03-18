@@ -5,7 +5,10 @@ module.exports = function (data) {
     const date = post.date;
 
     // clean content
-    let content = post.template.inputContent.replace(/---[\s\S]*?---/, "");
+    let content = post.template.inputContent.replace(
+      /---[\s\S]*?---/,
+      "# " + title
+    );
     content = content.replace(/(!\[.*?\]\(\.)(.+?)(\))/g, (whole, a, b, c) => {
       a = a.replace(".", "");
       b = "https://nueleanu.com/posts/" + slug + b;
