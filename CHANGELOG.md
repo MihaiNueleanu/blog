@@ -1,3 +1,12 @@
+# [1.17.0](https://github.com/MihaiNueleanu/blog/compare/1.16.0...1.17.0) (2021-03-18)
+
+
+### Features
+
+* added json sitemap ([f323a24](https://github.com/MihaiNueleanu/blog/commit/f323a243076d0a8121183f77f431226500503e43))
+
+
+
 # [1.16.0](https://github.com/MihaiNueleanu/blog/compare/1.15.0...1.16.0) (2021-03-17)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.13.1](https://github.com/MihaiNueleanu/blog/compare/1.13.0...1.13.1) (2021-03-16)
-
-
-
-# [1.13.0](https://github.com/MihaiNueleanu/blog/compare/1.12.0...1.13.0) (2021-03-16)
-
-
-### Features
-
-* skip version in package.json (docker build faster ([4804c9b](https://github.com/MihaiNueleanu/blog/commit/4804c9bc6d103ba1069acecd3e9f1989ee9c1449))
 
 
 
