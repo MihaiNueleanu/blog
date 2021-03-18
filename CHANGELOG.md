@@ -1,3 +1,12 @@
+# [1.18.0](https://github.com/MihaiNueleanu/blog/compare/1.17.0...1.18.0) (2021-03-18)
+
+
+### Features
+
+* replace relative images to absolute links ([441e0ce](https://github.com/MihaiNueleanu/blog/commit/441e0ce5b9315838efe458803ec92585e0f45df7))
+
+
+
 # [1.17.0](https://github.com/MihaiNueleanu/blog/compare/1.16.0...1.17.0) (2021-03-18)
 
 
@@ -31,10 +40,6 @@
 ### Features
 
 * remove permalink ([3543767](https://github.com/MihaiNueleanu/blog/commit/3543767c2246efef8a965640d5843db7c511fa24))
-
-
-
-## [1.13.1](https://github.com/MihaiNueleanu/blog/compare/1.13.0...1.13.1) (2021-03-16)
 
 
 
