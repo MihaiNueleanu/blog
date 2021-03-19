@@ -1,3 +1,12 @@
+# [1.19.0](https://github.com/MihaiNueleanu/blog/compare/1.18.0...1.19.0) (2021-03-18)
+
+
+### Features
+
+* added title in the page body ([f85b30a](https://github.com/MihaiNueleanu/blog/commit/f85b30af6e77d423e48ab851f38f5de8a0a8c640))
+
+
+
 # [1.18.0](https://github.com/MihaiNueleanu/blog/compare/1.17.0...1.18.0) (2021-03-18)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added plausible ([5130bfe](https://github.com/MihaiNueleanu/blog/commit/5130bfed5c2a8f4623005c3e55da4c0d0bb39e97))
-
-
-
-# [1.14.0](https://github.com/MihaiNueleanu/blog/compare/1.13.1...1.14.0) (2021-03-16)
-
-
-### Features
-
-* remove permalink ([3543767](https://github.com/MihaiNueleanu/blog/commit/3543767c2246efef8a965640d5843db7c511fa24))
 
 
 
