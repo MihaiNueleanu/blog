@@ -1,3 +1,12 @@
+# [1.20.0](https://github.com/MihaiNueleanu/blog/compare/1.19.0...1.20.0) (2021-03-19)
+
+
+### Features
+
+* added article source ([4965774](https://github.com/MihaiNueleanu/blog/commit/4965774ce5e11c5c203bec5c28f0ca0d80f75184))
+
+
+
 # [1.19.0](https://github.com/MihaiNueleanu/blog/compare/1.18.0...1.19.0) (2021-03-18)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added cover image to gpg key sharing article ([161c518](https://github.com/MihaiNueleanu/blog/commit/161c518e73a053f72ab8a76561a64733d67aaf53))
-
-
-
-# [1.15.0](https://github.com/MihaiNueleanu/blog/compare/1.14.0...1.15.0) (2021-03-17)
-
-
-### Features
-
-* added plausible ([5130bfe](https://github.com/MihaiNueleanu/blog/commit/5130bfed5c2a8f4623005c3e55da4c0d0bb39e97))
 
 
 
