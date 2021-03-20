@@ -73,3 +73,4 @@ I'm agnostic when it comes to any tools, and programming languages are no differ
 - [Neo4j](https://neo4j.com/) - Graph Database for when you're sick of joins
 - [Beekeeper studio](https://www.beekeeperstudio.io/) - The smoothest, best looking, and easiest to use SQL client for MySQL, Postgres, SQLite, SQL Server, and more.
 - [Robo 3T](https://robomongo.org/) - Native and cross-platform MongoDB manager
+- [Outline](https://github.com/outline/outline) - Outline: open, extensible, wiki
