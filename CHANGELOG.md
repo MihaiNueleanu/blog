@@ -1,3 +1,12 @@
+# [1.22.0](https://github.com/MihaiNueleanu/blog/compare/1.21.0...1.22.0) (2021-03-20)
+
+
+### Features
+
+* trying to trigger a deployment ([5e36e6d](https://github.com/MihaiNueleanu/blog/commit/5e36e6dec3d1e6f89b929c58cc43ba77bb92038b))
+
+
+
 # [1.21.0](https://github.com/MihaiNueleanu/blog/compare/1.20.0...1.21.0) (2021-03-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * replace relative images to absolute links ([441e0ce](https://github.com/MihaiNueleanu/blog/commit/441e0ce5b9315838efe458803ec92585e0f45df7))
-
-
-
-# [1.17.0](https://github.com/MihaiNueleanu/blog/compare/1.16.0...1.17.0) (2021-03-18)
-
-
-### Features
-
-* added json sitemap ([f323a24](https://github.com/MihaiNueleanu/blog/commit/f323a243076d0a8121183f77f431226500503e43))
 
 
 
