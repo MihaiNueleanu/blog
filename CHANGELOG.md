@@ -1,3 +1,12 @@
+# [1.24.0](https://github.com/MihaiNueleanu/blog/compare/1.23.0...1.24.0) (2021-03-23)
+
+
+### Features
+
+* github docker build ([537e9e1](https://github.com/MihaiNueleanu/blog/commit/537e9e1259495a406bcb54125b032de4492f82eb))
+
+
+
 # [1.23.0](https://github.com/MihaiNueleanu/blog/compare/1.22.0...1.23.0) (2021-03-20)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added article source ([4965774](https://github.com/MihaiNueleanu/blog/commit/4965774ce5e11c5c203bec5c28f0ca0d80f75184))
-
-
-
-# [1.19.0](https://github.com/MihaiNueleanu/blog/compare/1.18.0...1.19.0) (2021-03-18)
-
-
-### Features
-
-* added title in the page body ([f85b30a](https://github.com/MihaiNueleanu/blog/commit/f85b30af6e77d423e48ab851f38f5de8a0a8c640))
 
 
 
