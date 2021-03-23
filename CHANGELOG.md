@@ -1,3 +1,12 @@
+# [1.25.0](https://github.com/MihaiNueleanu/blog/compare/1.24.0...1.25.0) (2021-03-23)
+
+
+### Features
+
+* added tag correctly ([62c788e](https://github.com/MihaiNueleanu/blog/commit/62c788e596f2c0815393ca7f51cdcfdc928510db))
+
+
+
 # [1.24.0](https://github.com/MihaiNueleanu/blog/compare/1.23.0...1.24.0) (2021-03-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * filter out uses article ([cc3433f](https://github.com/MihaiNueleanu/blog/commit/cc3433f79408f3828ee651018ebafc21c9a06de7))
-
-
-
-# [1.20.0](https://github.com/MihaiNueleanu/blog/compare/1.19.0...1.20.0) (2021-03-19)
-
-
-### Features
-
-* added article source ([4965774](https://github.com/MihaiNueleanu/blog/commit/4965774ce5e11c5c203bec5c28f0ca0d80f75184))
 
 
 
