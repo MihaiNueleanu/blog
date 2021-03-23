@@ -1,3 +1,7 @@
+## [1.25.3](https://github.com/MihaiNueleanu/blog/compare/1.25.2...1.25.3) (2021-03-23)
+
+
+
 ## [1.25.2](https://github.com/MihaiNueleanu/blog/compare/1.25.1...1.25.2) (2021-03-23)
 
 
@@ -21,15 +25,6 @@
 ### Features
 
 * github docker build ([537e9e1](https://github.com/MihaiNueleanu/blog/commit/537e9e1259495a406bcb54125b032de4492f82eb))
-
-
-
-# [1.23.0](https://github.com/MihaiNueleanu/blog/compare/1.22.0...1.23.0) (2021-03-20)
-
-
-### Features
-
-* update blog ([38606c3](https://github.com/MihaiNueleanu/blog/commit/38606c304f7b78a401d44f460d2658f18723e71b))
 
 
 
