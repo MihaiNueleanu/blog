@@ -39,7 +39,8 @@ jobs:
         with:
           username: mihainueleanu
           password: "${{ secrets.DOCKER_HUB_PASSWORD }}"
-          image_name: mihainueleanu/blog:release-${{ steps.versionBump.outputs.tag }}}
+          image_name: mihainueleanu/blog
+          image_tag: release-${{ steps.versionBump.outputs.tag }}
 
       # - name: Install SSH Key
       #   uses: shimataro/ssh-key-action@v2
