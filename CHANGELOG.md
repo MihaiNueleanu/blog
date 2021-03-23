@@ -1,3 +1,7 @@
+## [1.25.2](https://github.com/MihaiNueleanu/blog/compare/1.25.1...1.25.2) (2021-03-23)
+
+
+
 ## [1.25.1](https://github.com/MihaiNueleanu/blog/compare/1.25.0...1.25.1) (2021-03-23)
 
 
@@ -26,15 +30,6 @@
 ### Features
 
 * update blog ([38606c3](https://github.com/MihaiNueleanu/blog/commit/38606c304f7b78a401d44f460d2658f18723e71b))
-
-
-
-# [1.22.0](https://github.com/MihaiNueleanu/blog/compare/1.21.0...1.22.0) (2021-03-20)
-
-
-### Features
-
-* trying to trigger a deployment ([5e36e6d](https://github.com/MihaiNueleanu/blog/commit/5e36e6dec3d1e6f89b929c58cc43ba77bb92038b))
 
 
 
