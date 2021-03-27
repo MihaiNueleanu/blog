@@ -13,7 +13,7 @@ tags:
   - function
 ---
 
-# The decorator method
+## The decorator method
 
 ```python
 def fire_and_forget(f):
@@ -29,7 +29,7 @@ def fire_and_forget(f):
     return wrapped
 ```
 
-# An example:
+## An example:
 
 Use the method above as a decorator for other methods:
 

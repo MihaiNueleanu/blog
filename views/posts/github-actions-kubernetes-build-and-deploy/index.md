@@ -1,6 +1,6 @@
 ---
 layout: blog.njk
-title: "GitHub Actions & K8S: build and deploy with containers"
+title: "GitHub Actions & K8S: build and deploy"
 date: 2021-03-26
 tags:
   - post
