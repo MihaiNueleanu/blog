@@ -89,3 +89,8 @@ jobs:
           git add .
           git commit -m "Release admin version $TAG"
           git push
+
+      # Trigger medium sync
+      - name: Trigger medium sync
+        run: |
+          curl -H 'x-secret-token: ${{ secrets.MEDIUM_SECRET_TOKEN }}' http://discussion.nueleanu.com/api/sync_medium
