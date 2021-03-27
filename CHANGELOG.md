@@ -1,3 +1,12 @@
+# [1.28.0](https://github.com/MihaiNueleanu/blog/compare/1.27.1...1.28.0) (2021-03-27)
+
+
+### Features
+
+* article about python fire and forget ([4f8310b](https://github.com/MihaiNueleanu/blog/commit/4f8310b153a695cf4371bc1a589efef024c4cb07))
+
+
+
 ## [1.27.1](https://github.com/MihaiNueleanu/blog/compare/1.27.0...1.27.1) (2021-03-27)
 
 
@@ -26,10 +35,6 @@
 
 
 ## [1.25.4](https://github.com/MihaiNueleanu/blog/compare/1.25.3...1.25.4) (2021-03-23)
-
-
-
-## [1.25.3](https://github.com/MihaiNueleanu/blog/compare/1.25.2...1.25.3) (2021-03-23)
 
 
 
