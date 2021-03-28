@@ -10,7 +10,9 @@ An internal monologue written to myself. What are my core values? How should I s
 
 Honesty of thought and honesty of speech; utmost important value and life goal. "Everybody lies" - a classic catch phrase of Dr House, but a truth as real as time and space.
 
-It's obvious that you should tell the truth. And you feel it in your heart, every time you think of steering towards a lie. But why should you? It's because honesty aligns your soul with reality, and brings peace to the mind. It also helps you build better reality, not just for yourself, but for everyone around you who's willing to listen.
+It's obvious that you should tell the truth. And you feel it in your heart, every time you think of steering towards a lie. But why should you? It's because honesty aligns your soul with reality, and brings peace to the mind. It also helps you build a better reality, not just for yourself, but for everyone around you who's willing to listen.
+
+Another nuance of it is that you should try to be precise in your speech. Honesty alone is sometimes just not enough. You must aim to make every word and every utterance matter,
 
 ## Simplicity
 
@@ -65,7 +67,5 @@ There's an infinite amount of directions you could choose to go in life. And the
 Trust your gut, and trust your instinct, especially when it's deeply negative about a certain perspective.
 
 But also trust when meaning reveals itself to you. Don't waste your time on trivial pastime activities and diversions that numb your senses and cloud your mind. But follow that which speaks to you, which you find appealing.
-
-## Precision of speech
 
 ## Courage
