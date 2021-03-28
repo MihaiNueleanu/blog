@@ -1,3 +1,12 @@
+# [1.29.0](https://github.com/MihaiNueleanu/blog/compare/1.28.0...1.29.0) (2021-03-27)
+
+
+### Features
+
+* fix headlines ([f82677b](https://github.com/MihaiNueleanu/blog/commit/f82677bb70201ded62a56a89f54ff060b401a16f))
+
+
+
 # [1.28.0](https://github.com/MihaiNueleanu/blog/compare/1.27.1...1.28.0) (2021-03-27)
 
 
@@ -31,10 +40,6 @@
 ### Features
 
 * new article about github actions ([bbb0b2b](https://github.com/MihaiNueleanu/blog/commit/bbb0b2b834a9bb19ebee645facc33bd4b2196b14))
-
-
-
-## [1.25.4](https://github.com/MihaiNueleanu/blog/compare/1.25.3...1.25.4) (2021-03-23)
 
 
 
