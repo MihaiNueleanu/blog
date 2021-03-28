@@ -4,7 +4,7 @@ title: "Core values"
 hideDiscussion: true
 ---
 
-An internal monologue written to myself. What are my core values? How should I steer my life towards maximizing the values that are important to me?
+An internal monologue written to myself. What are my core values? How should I steer my life towards maximizing the values that are most important to me?
 
 ## Honesty
 
@@ -59,6 +59,12 @@ How can you manage to balance all the values all the time? On certain occasions,
 Find the best possible outcome within the realm of possibility, try to balance everything as good as possible. But, when push comes to shove, you can pragmatically cut which doesn't make sense.
 
 ## Pursue what is meaningful
+
+There's an infinite amount of directions you could choose to go in life. And there's always something deep inside telling you which way is the right way for **you** to choose. Reason and rationale are not always up to speed with the abundant number of decisions in front of you at any given point. But your gut doesn't lie.
+
+Trust your gut, and trust your instinct, especially when it's deeply negative about a certain perspective.
+
+But also trust when meaning reveals itself to you. Don't waste your time on trivial pastime activities and diversions that numb your senses and cloud your mind. But follow that which speaks to you, which you find appealing.
 
 ## Precision of speech
 
