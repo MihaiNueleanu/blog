@@ -4,54 +4,63 @@ author: Mihai Nueleanu
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <meta name="description" content="{{content | striptags(true) | replace("\n", ".") | truncate(200)}}" />
-    <meta name="keywords" content="{% for tag in tags %}{{ tag }}, {% endfor %}" />
-    {% if author %}
-    <meta name="author" content="{{ author }}">
+
+<head>
+  <title>dotmethod | {{ title }}</title>
+  <meta name="description" content="{{content | striptags(true) | replace(" \n", "." ) | truncate(200)}}" />
+  <meta name="keywords" content="{% for tag in tags %}{{ tag }}, {% endfor %}" />
+  {% if author %}
+  <meta name="author" content="{{ author }}">
+  {% endif %}
+  {% include "favicon.njk" %}
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="/css/skeleton.css" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/css/comments.css" />
+  <link rel="stylesheet" type="text/css" href="/css/prism.css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css?family=DM+Serif+Text:400,400i|Open+Sans:400,400i,500,500i,700,700i&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"></script>
+  <script async defer data-domain="nueleanu.com" src="https://scout.nueleanu.com/js/plausible.js"></script>
+</head>
+
+<body class="blog line-numbers">
+
+  {% include 'header.njk' %}
+
+  <div class="content">
+    <h1>{{ title }}</h1>
+
+    {% if date and author and not hideDateAndAuthor %}
+    <small class="content-meta">{{ date | readableDate }} / {{ author }}</small>
     {% endif %}
-    {% include "favicon.njk" %}
-    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text:400,400i|Open+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="/css/reset.css"></link>
-    <link rel="stylesheet" type="text/css" href="/css/skeleton.css"></link>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css"></link>
-    <link rel="stylesheet" type="text/css" href="/css/comments.css"></link>
-    <link rel="stylesheet" type="text/css" href="/css/prism.css"></link>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.5/dist/medium-zoom.min.js"></script>
-    <script async defer data-domain="nueleanu.com" src="https://scout.nueleanu.com/js/plausible.js"></script>
-  </head>
-  <body class="blog line-numbers">
 
-    {% include 'header.njk' %}
-
-    <div class="content">
-      <h1>{{ title }}</h1>
-
-      {% if date and author and not hideDateAndAuthor %}
-        <small class="content-meta">{{ date | readableDate }} / {{ author }}</small>
-      {% endif %}
-      
-      <div class="article">
-        {{ content | safe  }}
-      </div>
-
-      <br><br><br>
-
-      {% if not hideDiscussion %}
-        {% include 'blog/tags.njk' %}
-        {% include 'blog/comments.njk' %}
-        {% include 'brief.njk' %}
-      {% endif %}
-
+    <div class="article">
+      {{ content | safe }}
     </div>
-    
-    <script>
-      mediumZoom(document.querySelectorAll('.content .article img'))
-    </script>
 
-  </body>
+    <br><br><br>
+
+    {% if not hideDiscussion %}
+    {% include 'blog/tags.njk' %}
+    {% include 'blog/comments.njk' %}
+    {% include 'brief.njk' %}
+    {% endif %}
+
+  </div>
+
+  <script>
+    mediumZoom(document.querySelectorAll('.content .article img'))
+  </script>
+
+</body>
+
 </html>
