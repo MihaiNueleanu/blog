@@ -1,3 +1,12 @@
+# [1.31.0](https://github.com/MihaiNueleanu/blog/compare/1.30.0...1.31.0) (2021-04-11)
+
+
+### Features
+
+* new article ([e1a67f2](https://github.com/MihaiNueleanu/blog/commit/e1a67f293cdab2e08ed4b73a4602b52ee88af1ac))
+
+
+
 # [1.30.0](https://github.com/MihaiNueleanu/blog/compare/1.29.0...1.30.0) (2021-03-28)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * discussion endpoint ([dade0ef](https://github.com/MihaiNueleanu/blog/commit/dade0efff63802ba60ea7a5c8a095596fdd64109))
-
-
-
-# [1.27.0](https://github.com/MihaiNueleanu/blog/compare/1.26.0...1.27.0) (2021-03-27)
-
-
-### Features
-
-* added medium sync step in deployment ([7496fbe](https://github.com/MihaiNueleanu/blog/commit/7496fbe1b367cdfe0ded285a13ff46318adbd22e))
 
 
 
