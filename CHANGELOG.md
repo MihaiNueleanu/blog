@@ -1,3 +1,12 @@
+# [1.32.0](https://github.com/MihaiNueleanu/blog/compare/1.31.0...1.32.0) (2021-04-11)
+
+
+### Features
+
+* update article ([54ef5a8](https://github.com/MihaiNueleanu/blog/commit/54ef5a8ae33eab49e0f65c395afed1199596e079))
+
+
+
 # [1.31.0](https://github.com/MihaiNueleanu/blog/compare/1.30.0...1.31.0) (2021-04-11)
 
 
@@ -33,15 +42,6 @@
 ### Features
 
 * article about python fire and forget ([4f8310b](https://github.com/MihaiNueleanu/blog/commit/4f8310b153a695cf4371bc1a589efef024c4cb07))
-
-
-
-## [1.27.1](https://github.com/MihaiNueleanu/blog/compare/1.27.0...1.27.1) (2021-03-27)
-
-
-### Bug Fixes
-
-* discussion endpoint ([dade0ef](https://github.com/MihaiNueleanu/blog/commit/dade0efff63802ba60ea7a5c8a095596fdd64109))
 
 
 
