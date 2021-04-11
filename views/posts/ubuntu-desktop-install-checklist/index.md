@@ -25,3 +25,4 @@ Given a brand new ubuntu installation, here's my first half-hour on the new syst
 - Install kubectl
 - Install solaar
 - Install [key-mapper](https://github.com/sezanzeb/key-mapper.git)
+- Install python & nodejs
