@@ -1,3 +1,7 @@
+## [1.32.1](https://github.com/MihaiNueleanu/blog/compare/1.32.0...1.32.1) (2021-04-12)
+
+
+
 # [1.32.0](https://github.com/MihaiNueleanu/blog/compare/1.31.0...1.32.0) (2021-04-11)
 
 
@@ -33,15 +37,6 @@
 ### Features
 
 * fix headlines ([f82677b](https://github.com/MihaiNueleanu/blog/commit/f82677bb70201ded62a56a89f54ff060b401a16f))
-
-
-
-# [1.28.0](https://github.com/MihaiNueleanu/blog/compare/1.27.1...1.28.0) (2021-03-27)
-
-
-### Features
-
-* article about python fire and forget ([4f8310b](https://github.com/MihaiNueleanu/blog/commit/4f8310b153a695cf4371bc1a589efef024c4cb07))
 
 
 
