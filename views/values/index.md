@@ -69,3 +69,21 @@ Trust your gut, and trust your instinct, especially when it's deeply negative ab
 But also trust when meaning reveals itself to you. Don't waste your time on trivial pastime activities and diversions that numb your senses and cloud your mind. But follow that which speaks to you, which you find appealing.
 
 ## Courage
+
+All throughout my life I've had this one recurring dream, which keeps coming back to me. It's ever so slightly different every time, and never precisely the same. But here's the essence of it:
+
+One way or another, through a certain sequence of pressuring events, I find myself needing to stand up for myself. My worst enemy slaps me over the head. Or somebody I care for gets attacked verbally by a hateful stranger. I know it in my heart: I must take a stand, I must fight back to injustice. But I'm afraid. Of course I'm afraid. All odds are against me, I'm cornered and surrounded. I look my enemy in the eye and my heart is beating hard. Fear is creeping deeper and deeper in my heart.
+
+For the longest time, my dreams would always culminate in the same way: When the moment comes for me to say what I need to say, or throw the punch back - I became cemented, paralyzed. I'm paralyzed, literally paralyzed. Fist stuck in mid-air, on trajectory, unable to move, unable to blink, unable to speak. Unable to explain it. And then I'd wake up, feeling shameful. Feeling guilty. Feeling humiliated. 
+
+"What does it mean?" - I kept asking myself; for years. I didn't think it through, as deeply as I should have, but in my heart I always knew the answer.
+
+Until one night, when, to my perplexity, the punch landed. And the dream changed forever.
+
+Something had clicked in my heart, and I knew deep down that if the situation presented itself, I'd do the right thing, and stand up for what's right to the best of my abilities. 
+
+I was afraid for most my life of being a coward. And it haunted me, in my dreams, over and over again. 
+
+I know now, that all this time, it was my inner self, drilling the lesson into me: **Be courageous** ! Stand up! Fight for what's right! Fight for what's good! And my conscience never let me forget it. Until it became part of me. Until not even the dream could freeze me anymore. 
+
+Be courageous. It's the key to keeping your core intact.
