@@ -1,3 +1,12 @@
+# [1.33.0](https://github.com/MihaiNueleanu/blog/compare/1.32.1...1.33.0) (2021-04-18)
+
+
+### Features
+
+* new article for plausible on kubernetes ([b37badf](https://github.com/MihaiNueleanu/blog/commit/b37badf3ca1b058468878f3f1ccb641c109b359c))
+
+
+
 ## [1.32.1](https://github.com/MihaiNueleanu/blog/compare/1.32.0...1.32.1) (2021-04-12)
 
 
@@ -28,15 +37,6 @@
 * update layout ([37a764d](https://github.com/MihaiNueleanu/blog/commit/37a764d0bad4a54a077a9f2204cbb0167ded28ce))
 * update values ([20aee03](https://github.com/MihaiNueleanu/blog/commit/20aee030fd52f0017472957cacf31fb5975a76d8))
 * updated styles ([b394170](https://github.com/MihaiNueleanu/blog/commit/b3941709386c4f8895b49d866b8050142b6ce44f))
-
-
-
-# [1.29.0](https://github.com/MihaiNueleanu/blog/compare/1.28.0...1.29.0) (2021-03-27)
-
-
-### Features
-
-* fix headlines ([f82677b](https://github.com/MihaiNueleanu/blog/commit/f82677bb70201ded62a56a89f54ff060b401a16f))
 
 
 
