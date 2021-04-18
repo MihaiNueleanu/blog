@@ -3,16 +3,17 @@
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   padding: 0 64px;
   margin-bottom: 40px;
-  height: 73px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   img {
     max-width: 200px;
-    margin-top: 10px;
   }
 
   .button,
   .button:hover {
-    float: right;
     margin: 0;
     padding: 23px 0;
     display: flex;
