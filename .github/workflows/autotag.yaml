@@ -93,4 +93,4 @@ jobs:
       # Trigger medium sync
       - name: Trigger medium sync
         run: |
-          curl -H 'x-secret-token: ${{ secrets.MEDIUM_SECRET_TOKEN }}' https://discussion.nueleanu.com/api/sync_medium
+          curl -H 'x-secret-token: ${{ secrets.MEDIUM_SECRET_TOKEN }}' https://api.dotmethod.me/api/sync_medium

@@ -19,7 +19,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("absoluteUrl", (rel) => {
-    return `https://nueleanu.com${rel}`;
+    return `https://dotmethod.me${rel}`;
   });
 
   eleventyConfig.addPassthroughCopy({ "public/css": "css" });

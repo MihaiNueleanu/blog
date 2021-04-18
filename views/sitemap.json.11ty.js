@@ -5,8 +5,8 @@ module.exports = function (data) {
       const slug = post.template.fileSlugStr;
       const title = post.template.frontMatter.data.title;
       const date = post.date;
-      const postUrl = "https://nueleanu.com/posts/" + slug;
-      const header = `# ${title}\n\n_Originally posted on [dotmethod.com](${postUrl})_\n\n`;
+      const postUrl = "https://dotmethod.me/posts/" + slug;
+      const header = `# ${title}\n\n_Originally posted on [dotmethod.me](${postUrl})_\n\n`;
 
       // clean content
       let content = post.template.inputContent.replace(
