@@ -1,3 +1,12 @@
+# [1.35.0](https://github.com/MihaiNueleanu/blog/compare/1.34.0...1.35.0) (2021-04-18)
+
+
+### Features
+
+* updated header and logo ([6855f16](https://github.com/MihaiNueleanu/blog/commit/6855f16ca7424234ca5689588bc1bcbf149b7fbe))
+
+
+
 # [1.34.0](https://github.com/MihaiNueleanu/blog/compare/1.33.1...1.34.0) (2021-04-18)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.32.1](https://github.com/MihaiNueleanu/blog/compare/1.32.0...1.32.1) (2021-04-12)
-
-
-
-# [1.32.0](https://github.com/MihaiNueleanu/blog/compare/1.31.0...1.32.0) (2021-04-11)
-
-
-### Features
-
-* update article ([54ef5a8](https://github.com/MihaiNueleanu/blog/commit/54ef5a8ae33eab49e0f65c395afed1199596e079))
 
 
 
