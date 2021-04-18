@@ -14,7 +14,7 @@
   "author": "Mihai Nueleanu",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
     "markdown-it": "^12.0.4",
     "markdown-it-anchor": "^7.0.2",
