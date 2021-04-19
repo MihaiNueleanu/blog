@@ -1,3 +1,12 @@
+# [1.36.0](https://github.com/MihaiNueleanu/blog/compare/1.35.1...1.36.0) (2021-04-19)
+
+
+### Features
+
+* kubectl config generation article ([66fe48b](https://github.com/MihaiNueleanu/blog/commit/66fe48b9a334f4c7f530c1e9b9990cfeb150c8c1))
+
+
+
 ## [1.35.1](https://github.com/MihaiNueleanu/blog/compare/1.35.0...1.35.1) (2021-04-19)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.33.1](https://github.com/MihaiNueleanu/blog/compare/1.33.0...1.33.1) (2021-04-18)
-
-
-
-# [1.33.0](https://github.com/MihaiNueleanu/blog/compare/1.32.1...1.33.0) (2021-04-18)
-
-
-### Features
-
-* new article for plausible on kubernetes ([b37badf](https://github.com/MihaiNueleanu/blog/commit/b37badf3ca1b058468878f3f1ccb641c109b359c))
 
 
 
