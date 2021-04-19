@@ -1,3 +1,7 @@
+## [1.35.1](https://github.com/MihaiNueleanu/blog/compare/1.35.0...1.35.1) (2021-04-19)
+
+
+
 # [1.35.0](https://github.com/MihaiNueleanu/blog/compare/1.34.0...1.35.0) (2021-04-18)
 
 
@@ -26,10 +30,6 @@
 ### Features
 
 * new article for plausible on kubernetes ([b37badf](https://github.com/MihaiNueleanu/blog/commit/b37badf3ca1b058468878f3f1ccb641c109b359c))
-
-
-
-## [1.32.1](https://github.com/MihaiNueleanu/blog/compare/1.32.0...1.32.1) (2021-04-12)
 
 
 
