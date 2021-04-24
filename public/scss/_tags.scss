@@ -4,12 +4,27 @@
   font-family: "Open Sans", sans-serif;
 
   .tag {
-    display: block;
-    background-color: rgba(242, 242, 242, 1);
-    color: rgba(117, 117, 117, 1);
-    padding: 3px 10px;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    color: #999;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 17px 0 10px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
     font-size: 14px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+  }
+
+  .tag::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #eee;
+    border-top: 13px solid transparent;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
