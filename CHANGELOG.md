@@ -1,3 +1,12 @@
+# [1.37.0](https://github.com/MihaiNueleanu/blog/compare/1.36.0...1.37.0) (2021-04-24)
+
+
+### Features
+
+* new kubernetes article ([a1aa454](https://github.com/MihaiNueleanu/blog/commit/a1aa4543ee053c3b819cf6e023a6d55162413523))
+
+
+
 # [1.36.0](https://github.com/MihaiNueleanu/blog/compare/1.35.1...1.36.0) (2021-04-19)
 
 
@@ -26,10 +35,6 @@
 ### Features
 
 * update references to dotmethod.me ([25f7d2e](https://github.com/MihaiNueleanu/blog/commit/25f7d2e6f03b9dab2fe83f854b3de8b80e4b7f2b))
-
-
-
-## [1.33.1](https://github.com/MihaiNueleanu/blog/compare/1.33.0...1.33.1) (2021-04-18)
 
 
 
