@@ -1,3 +1,30 @@
+# [1.38.0](https://github.com/MihaiNueleanu/blog/compare/1.37.0...1.38.0) (2021-10-08)
+
+
+### Features
+
+* new job added to the list ([d63370d](https://github.com/MihaiNueleanu/blog/commit/d63370d910d098b1ce754bd9d09ab0786901061b))
+
+
+
+# [1.37.0](https://github.com/MihaiNueleanu/blog/compare/1.36.0...1.37.0) (2021-04-24)
+
+
+### Features
+
+* new kubernetes article ([a1aa454](https://github.com/MihaiNueleanu/blog/commit/a1aa4543ee053c3b819cf6e023a6d55162413523))
+
+
+
+# [1.36.0](https://github.com/MihaiNueleanu/blog/compare/1.35.1...1.36.0) (2021-04-19)
+
+
+### Features
+
+* kubectl config generation article ([66fe48b](https://github.com/MihaiNueleanu/blog/commit/66fe48b9a334f4c7f530c1e9b9990cfeb150c8c1))
+
+
+
 ## [1.35.1](https://github.com/MihaiNueleanu/blog/compare/1.35.0...1.35.1) (2021-04-19)
 
 
@@ -8,28 +35,6 @@
 ### Features
 
 * updated header and logo ([6855f16](https://github.com/MihaiNueleanu/blog/commit/6855f16ca7424234ca5689588bc1bcbf149b7fbe))
-
-
-
-# [1.34.0](https://github.com/MihaiNueleanu/blog/compare/1.33.1...1.34.0) (2021-04-18)
-
-
-### Features
-
-* update references to dotmethod.me ([25f7d2e](https://github.com/MihaiNueleanu/blog/commit/25f7d2e6f03b9dab2fe83f854b3de8b80e4b7f2b))
-
-
-
-## [1.33.1](https://github.com/MihaiNueleanu/blog/compare/1.33.0...1.33.1) (2021-04-18)
-
-
-
-# [1.33.0](https://github.com/MihaiNueleanu/blog/compare/1.32.1...1.33.0) (2021-04-18)
-
-
-### Features
-
-* new article for plausible on kubernetes ([b37badf](https://github.com/MihaiNueleanu/blog/commit/b37badf3ca1b058468878f3f1ccb641c109b359c))
 
 
 
