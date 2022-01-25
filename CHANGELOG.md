@@ -1,3 +1,12 @@
+# [1.39.0](https://github.com/MihaiNueleanu/blog/compare/1.38.0...1.39.0) (2022-01-25)
+
+
+### Features
+
+* meilisearch article ([73568ab](https://github.com/MihaiNueleanu/blog/commit/73568abc4b5392dec41d51c973d101b5d6b7a637))
+
+
+
 # [1.38.0](https://github.com/MihaiNueleanu/blog/compare/1.37.0...1.38.0) (2021-10-08)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.35.1](https://github.com/MihaiNueleanu/blog/compare/1.35.0...1.35.1) (2021-04-19)
-
-
-
-# [1.35.0](https://github.com/MihaiNueleanu/blog/compare/1.34.0...1.35.0) (2021-04-18)
-
-
-### Features
-
-* updated header and logo ([6855f16](https://github.com/MihaiNueleanu/blog/commit/6855f16ca7424234ca5689588bc1bcbf149b7fbe))
 
 
 
