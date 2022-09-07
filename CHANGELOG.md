@@ -1,3 +1,12 @@
+# [1.40.0](https://github.com/MihaiNueleanu/blog/compare/1.39.0...1.40.0) (2022-09-07)
+
+
+### Features
+
+* updated skills ([987be1e](https://github.com/MihaiNueleanu/blog/commit/987be1e0c89cf0060ce83dab48999c372a87bee2))
+
+
+
 # [1.39.0](https://github.com/MihaiNueleanu/blog/compare/1.38.0...1.39.0) (2022-01-25)
 
 
@@ -31,10 +40,6 @@
 ### Features
 
 * kubectl config generation article ([66fe48b](https://github.com/MihaiNueleanu/blog/commit/66fe48b9a334f4c7f530c1e9b9990cfeb150c8c1))
-
-
-
-## [1.35.1](https://github.com/MihaiNueleanu/blog/compare/1.35.0...1.35.1) (2021-04-19)
 
 
 
