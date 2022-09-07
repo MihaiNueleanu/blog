@@ -30,16 +30,21 @@ Frameworks:
   - Angular
 Infrastructure:
   - Kubernetes
-  - OpenShift
   - Docker
-  - Serverless (Lambda)
+  - Serverless/Lambda
+  - Terraform
+  - Ansible
   - AWS
+  - DigitalOcean
+  - GCP
   - IBM Cloud
   - Heroku
-  - DigitalOcean
 Database:
   - MongoDB
   - PostgreSQL
+  - Meilisearch
+  - Neo4J
+  - Redis
   - Kafka
   - SQL Server
   - CouchDB
@@ -54,6 +59,7 @@ Misc:
   - Git
   - REST
   - GraphQL
+  - Grafana & Loki
   - Jenkins
   - VS Code
   - Sentry
@@ -65,4 +71,3 @@ Misc:
   - Mac
   - Wordpress
   - CloudFlare
-  - Subversion
