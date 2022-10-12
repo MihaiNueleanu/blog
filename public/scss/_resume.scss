@@ -171,6 +171,10 @@
     padding: 0 20px;
     z-index: 10;
     position: relative;
+
+    @media print {
+      background: #fff;
+    }
   }
   .headline-strike:before {
     border-top: 1px solid #333;
@@ -219,14 +223,62 @@
   #Contact {
     font-size: 2.4rem;
   }
+}
 
-  @media print {
-    .hide-print {
-      display: none;
+@media print {
+  .resume {
+    background-color: white;
+    .welcome {
+      height: auto !important;
+      max-width: 960px;
+      margin: 0 auto;
+
+      .wrapper {
+        margin: 0 auto;
+        max-width: 90%;
+        box-sizing: border-box;
+
+        .left-side {
+          width: 120px;
+          padding-right: 20px;
+          display: none !important;
+
+          .portrait {
+            width: 120px;
+            height: 120px;
+            box-shadow: none;
+            margin-bottom: 10px;
+          }
+        }
+
+        .right-side {
+          margin: 2rem 0 !important;
+        }
+      }
     }
 
-    html {
-      font-size: 10px;
+    .portrait:before {
+      display: none !important;
+    }
+    .hide-print {
+      display: none !important;
+    }
+
+    // .pill {
+    //   border-color: #bebebe;
+    // }
+
+    #Skills,
+    #Career,
+    #Education,
+    #Contact {
+      .container {
+        max-width: 90%;
+      }
+    }
+
+    .container {
+      max-width: 960px;
     }
 
     .welcome {
@@ -236,10 +288,6 @@
         padding-top: 4rem;
         padding-bottom: 0rem;
       }
-    }
-
-    .container {
-      max-width: 960px;
     }
 
     section.content-block {
@@ -260,7 +308,7 @@
     }
 
     li {
-      margin-bottom: 0.4rem;
+      margin-bottom: 0rem !important;
     }
 
     #Skills > .container > .row {
@@ -280,7 +328,7 @@
       max-width: 90%;
     }
 
-    #Education {
+    #Career {
       page-break-before: always;
     }
 
@@ -295,5 +343,13 @@
     #Contact h3 {
       font-size: 2.5rem;
     }
+  }
+}
+
+.only-print {
+  display: none;
+
+  @media print {
+    display: block;
   }
 }
