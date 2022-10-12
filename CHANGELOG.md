@@ -1,3 +1,7 @@
+## [1.40.1](https://github.com/MihaiNueleanu/blog/compare/1.40.0...1.40.1) (2022-10-12)
+
+
+
 # [1.40.0](https://github.com/MihaiNueleanu/blog/compare/1.39.0...1.40.0) (2022-09-07)
 
 
@@ -31,15 +35,6 @@
 ### Features
 
 * new kubernetes article ([a1aa454](https://github.com/MihaiNueleanu/blog/commit/a1aa4543ee053c3b819cf6e023a6d55162413523))
-
-
-
-# [1.36.0](https://github.com/MihaiNueleanu/blog/compare/1.35.1...1.36.0) (2021-04-19)
-
-
-### Features
-
-* kubectl config generation article ([66fe48b](https://github.com/MihaiNueleanu/blog/commit/66fe48b9a334f4c7f530c1e9b9990cfeb150c8c1))
 
 
 
