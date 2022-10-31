@@ -328,9 +328,9 @@
       max-width: 90%;
     }
 
-    #Career {
-      page-break-before: always;
-    }
+    // #Career {
+    //   page-break-before: always;
+    // }
 
     #Contact {
       margin-top: 3rem;
@@ -351,5 +351,18 @@
 
   @media print {
     display: block;
+  }
+}
+
+.tech {
+  font-weight: 500;
+  color: rgb(12, 104, 190);
+  margin-right: 10px;
+  line-height: 36px;
+  cursor: grab;
+
+  &:hover {
+    color: rgb(36, 136, 230);
+    text-decoration: dashed;
   }
 }

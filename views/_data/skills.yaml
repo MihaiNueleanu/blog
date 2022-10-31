@@ -1,44 +1,34 @@
-General:
-  - Engineering
+Buzzwords:
+  - TeamLead
+  - Agile
   - DevOps
-  - Project Management
-  - Product Ownership
-  - Security
-  - IAM
-  - Agile Development
   - Leadership
   - Recruitment
   - Training
-  - Team management
-  - UI/UX
 Languages:
-  - JavaScript / Typescript
-  - C#
+  - Typescript
+  - Javascript
+  - Csharp
   - Python
   - Java
-  - PHP
   - SCSS
 Frameworks:
   - React
-  - Node.js
-  - Vue.js
-  - dotNET core
+  - Nodejs
+  - Vuejs
+  - Dotnet
   - Django
-  - React Native
+  - ReactNative
   - Svelte
   - SpringBoot
   - Angular
 Infrastructure:
   - Kubernetes
+  - ArgoCD
   - Docker
-  - Serverless/Lambda
+  - Serverless
   - Terraform
   - Ansible
-  - AWS
-  - DigitalOcean
-  - GCP
-  - IBM Cloud
-  - Heroku
 Database:
   - MongoDB
   - PostgreSQL
@@ -46,28 +36,25 @@ Database:
   - Neo4J
   - Redis
   - Kafka
-  - SQL Server
-  - CouchDB
-Tests:
-  - Cypress (e2e web)
-  - Jest (node and web)
-  - PyTest (python)
-  - XUnit (dotnet core)
-  - JUnit (java)
+Testing:
+  - Cypress
+  - Jest
+  - PyTest
+  - XUnit
+  - JUnit
 Misc:
   - Linux
   - Git
   - REST
   - GraphQL
-  - Grafana & Loki
+  - Grafana
+  - Prometheus
+  - LogQL
   - Jenkins
-  - VS Code
+  - VSCode
   - Sentry
   - DataDog
   - LogDNA
-  - GitHub Actions
-  - Jira
-  - Windows
-  - Mac
+  - GitHubActions
   - Wordpress
   - CloudFlare
