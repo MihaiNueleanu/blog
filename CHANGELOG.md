@@ -1,3 +1,12 @@
+# [1.41.0](https://github.com/MihaiNueleanu/blog/compare/1.40.1...1.41.0) (2022-10-31)
+
+
+### Features
+
+* updated my cv to reflect 2022 ([026f8f8](https://github.com/MihaiNueleanu/blog/commit/026f8f8f87af43bdbe92743c8aaccaacd7fcd921))
+
+
+
 ## [1.40.1](https://github.com/MihaiNueleanu/blog/compare/1.40.0...1.40.1) (2022-10-12)
 
 
@@ -26,15 +35,6 @@
 ### Features
 
 * new job added to the list ([d63370d](https://github.com/MihaiNueleanu/blog/commit/d63370d910d098b1ce754bd9d09ab0786901061b))
-
-
-
-# [1.37.0](https://github.com/MihaiNueleanu/blog/compare/1.36.0...1.37.0) (2021-04-24)
-
-
-### Features
-
-* new kubernetes article ([a1aa454](https://github.com/MihaiNueleanu/blog/commit/a1aa4543ee053c3b819cf6e023a6d55162413523))
 
 
 
