@@ -1,3 +1,7 @@
+## [1.41.1](https://github.com/MihaiNueleanu/blog/compare/1.41.0...1.41.1) (2022-10-31)
+
+
+
 # [1.41.0](https://github.com/MihaiNueleanu/blog/compare/1.40.1...1.41.0) (2022-10-31)
 
 
@@ -26,15 +30,6 @@
 ### Features
 
 * meilisearch article ([73568ab](https://github.com/MihaiNueleanu/blog/commit/73568abc4b5392dec41d51c973d101b5d6b7a637))
-
-
-
-# [1.38.0](https://github.com/MihaiNueleanu/blog/compare/1.37.0...1.38.0) (2021-10-08)
-
-
-### Features
-
-* new job added to the list ([d63370d](https://github.com/MihaiNueleanu/blog/commit/d63370d910d098b1ce754bd9d09ab0786901061b))
 
 
 
