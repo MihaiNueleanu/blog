@@ -1,3 +1,12 @@
+# [1.43.0](https://github.com/MihaiNueleanu/blog/compare/1.42.0...1.43.0) (2023-01-29)
+
+
+### Features
+
+* new dotmethod landing page ([14e8d4d](https://github.com/MihaiNueleanu/blog/commit/14e8d4d2585665b9f4ea6f51deb834076d8b4976))
+
+
+
 # [1.42.0](https://github.com/MihaiNueleanu/blog/compare/1.41.1...1.42.0) (2023-01-29)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.40.1](https://github.com/MihaiNueleanu/blog/compare/1.40.0...1.40.1) (2022-10-12)
-
-
-
-# [1.40.0](https://github.com/MihaiNueleanu/blog/compare/1.39.0...1.40.0) (2022-09-07)
-
-
-### Features
-
-* updated skills ([987be1e](https://github.com/MihaiNueleanu/blog/commit/987be1e0c89cf0060ce83dab48999c372a87bee2))
 
 
 
