@@ -1,5 +1,31 @@
 <div class="tags">
-  {% for tag in tags %} {% if tag != "post" and tag != "published" %}
-  <div class="tag">{{ tag }}</div>
-  {% endif %} {% endfor %}
+  {% for tag in tags %}
+    {% if tag != "post" and tag != "published" %}
+      <div class="tag">#{{ tag }}</div>
+    {% endif %}
+  {% endfor %}
 </div>
+
+<style>
+  .tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .tags .tag {
+    color: #0c68be;
+    font-weight: 600;
+    display: inline-block;
+    line-height: 26px;
+    position: relative;
+    margin: 0 15px 7px 0;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: grab;
+    line-height: 26px;
+  }
+  .tags .tag:hover {
+    color: #2488e6;
+  }
+</style>

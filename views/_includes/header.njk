@@ -1,10 +1,69 @@
 <div class="header">
   <a href="/">
-    <img src="/images/logo2.svg" style="display:flex;" />
+    <img src="/images/logo2.svg" style="display:flex;"/>
   </a>
 
-  <a class="button button-primary button-simple" href="{{metadata.github}}" target="_blank">
-    <i class="fa fa-github" aria-hidden="true"></i>
-    GitHub
-  </a>
+  <nav>
+    <a href="/">
+      Home
+    </a>
+    <a href="/contact">
+      Contact
+    </a>
+
+  </nav>
+
 </div>
+
+<style>
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    font-family: "Open Sans", sans-serif;
+
+  }
+
+  nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  }
+
+  @media all and (max-width: 600px) {
+
+    nav a {
+      padding: 10px;
+    }
+  }
+
+  nav a:hover {
+    text-decoration: none;
+  }
+
+  .header {
+    font-family: "Open Sans", sans-serif;
+    padding: 0 64px;
+    margin-bottom: 40px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .header img {
+    max-width: 200px;
+  }
+
+  @media all and (max-width: 600px) {
+    .header {
+      padding: 0 20px;
+    }
+
+  }
+</style>
