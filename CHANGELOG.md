@@ -1,3 +1,12 @@
+# [1.45.0](https://github.com/MihaiNueleanu/blog/compare/1.44.0...1.45.0) (2023-01-29)
+
+
+### Features
+
+* just enough architecture publish ([fcd7a04](https://github.com/MihaiNueleanu/blog/commit/fcd7a04a406fbd5d384bcba7966d2bb9f070521d))
+
+
+
 # [1.44.0](https://github.com/MihaiNueleanu/blog/compare/1.43.0...1.44.0) (2023-01-29)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.41.1](https://github.com/MihaiNueleanu/blog/compare/1.41.0...1.41.1) (2022-10-31)
-
-
-
-# [1.41.0](https://github.com/MihaiNueleanu/blog/compare/1.40.1...1.41.0) (2022-10-31)
-
-
-### Features
-
-* updated my cv to reflect 2022 ([026f8f8](https://github.com/MihaiNueleanu/blog/commit/026f8f8f87af43bdbe92743c8aaccaacd7fcd921))
 
 
 
