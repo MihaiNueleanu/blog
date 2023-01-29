@@ -1,3 +1,12 @@
+# [1.42.0](https://github.com/MihaiNueleanu/blog/compare/1.41.1...1.42.0) (2023-01-29)
+
+
+### Features
+
+* update landing page ([ab3184a](https://github.com/MihaiNueleanu/blog/commit/ab3184a0c195c96a717063fe150521cb9a9b94c9))
+
+
+
 ## [1.41.1](https://github.com/MihaiNueleanu/blog/compare/1.41.0...1.41.1) (2022-10-31)
 
 
@@ -21,15 +30,6 @@
 ### Features
 
 * updated skills ([987be1e](https://github.com/MihaiNueleanu/blog/commit/987be1e0c89cf0060ce83dab48999c372a87bee2))
-
-
-
-# [1.39.0](https://github.com/MihaiNueleanu/blog/compare/1.38.0...1.39.0) (2022-01-25)
-
-
-### Features
-
-* meilisearch article ([73568ab](https://github.com/MihaiNueleanu/blog/commit/73568abc4b5392dec41d51c973d101b5d6b7a637))
 
 
 
