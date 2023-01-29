@@ -187,6 +187,14 @@ blockquote {
   }
 }
 
+.sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
 @import "./header";
 @import "./content";
 @import "./button";

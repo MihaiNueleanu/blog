@@ -1,0 +1,8 @@
+{
+  "[njk]": {
+    "editor.formatOnSave": false
+  },
+  "files.associations": {
+    "**/*.njk": "njk"
+  }
+}

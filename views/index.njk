@@ -18,6 +18,7 @@
   <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
   <link rel="stylesheet" type="text/css" href="/css/prism.css">
+  <link rel="stylesheet" type="text/css" href="/css/linear-icon.css" />
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
@@ -30,6 +31,41 @@
 <body class="landing">
 
   {% include 'header.njk' %}
+
+  <div class="top"> 
+    <div class="hero">
+      <div class="content">
+        <h2>Maximizing your business <u>success</u> with technology</h2>
+      </div>
+    </div>
+
+    {# create a 3 column layout #}
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+          <div class="card">
+            <span class="lnr lnr-cloud"></span>
+            <h4 class="sans w500">Cloud-Native</h4>
+            <p>Utilizing the latest cloud-native technology to optimize IT systems and increase productivity.</p>
+          </div>
+        </div>
+        <div class="one-third column">
+          <div class="card">
+            <span class="lnr lnr-bicycle"></span>
+            <h4 class="sans w500">Agile</h4>
+            <p>Flexible and adaptable approach to deliver solutions that meet the unique needs of each client.</p>
+          </div>
+        </div>
+        <div class="one-third column">
+          <div class="card">
+            <span class="lnr lnr-magic-wand"></span>
+            <h4 class="sans w500">Versatile</h4>
+            <p>Expertize in a wide range of buzzwords: DevOps, backend, frontend, automated testing, CI/CD and more</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="content">
 
