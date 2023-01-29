@@ -1,3 +1,12 @@
+# [1.44.0](https://github.com/MihaiNueleanu/blog/compare/1.43.0...1.44.0) (2023-01-29)
+
+
+### Features
+
+* new contact page ([8500496](https://github.com/MihaiNueleanu/blog/commit/850049629cd72eb4875ba0c3f725866aa2ce069a))
+
+
+
 # [1.43.0](https://github.com/MihaiNueleanu/blog/compare/1.42.0...1.43.0) (2023-01-29)
 
 
@@ -26,10 +35,6 @@
 ### Features
 
 * updated my cv to reflect 2022 ([026f8f8](https://github.com/MihaiNueleanu/blog/commit/026f8f8f87af43bdbe92743c8aaccaacd7fcd921))
-
-
-
-## [1.40.1](https://github.com/MihaiNueleanu/blog/compare/1.40.0...1.40.1) (2022-10-12)
 
 
 
