@@ -1,33 +1,4 @@
 .landing {
   font-family: "Open Sans", sans-serif;
   background: white;
-
-  .top {
-    min-height: calc(100vh - 70px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .hero {
-    padding: 0 64px;
-    margin-bottom: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-  }
-
-  .container {
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-
-  .lnr {
-    display: block;
-    font-size: 48px;
-    margin-bottom: 20px;
-  }
 }

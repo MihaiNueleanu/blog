@@ -1,87 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-  <title>dotmethod | Home</title>
-  <meta name="keywords" content="dotmethod blog mihai nueleanu developer engineer blog" />
-  <meta name="description"
-    content='I am the kind of person that simply "gets things done", which is something I take great pride in. I pay high attention to details and I make the most of the time and resources I`m given to create the best possible outcome.' />
-  <link rel="canonical" href="https://dotmethod.me" />
-  <link rel="profile" href="http://gmpg.org/xfn/11" />
-  {% include "favicon.njk" %}
-
-  <meta charset="UTF-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width" />
-
-  <link rel="stylesheet" type="text/css" href="/css/reset.css" />
-  <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
-  <link rel="stylesheet" type="text/css" href="/css/prism.css">
-  <link rel="stylesheet" type="text/css" href="/css/linear-icon.css" />
-
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-  <link
-    href="https://fonts.googleapis.com/css?family=DM+Serif+Text:400,400i|Open+Sans:400,400i,500,500i,700,700i&display=swap"
-    rel="stylesheet" />
-  <script async defer data-domain="dotmethod.me" src="https://scout.nueleanu.com/js/plausible.js"></script>
-</head>
-
-<body class="landing">
-
-  {% include 'header.njk' %}
-
-  <div class="top"> 
-    <div class="hero">
-      <div class="content">
-        <h2>Maximizing your business <u>success</u> with technology</h2>
-      </div>
-    </div>
-
-    {# create a 3 column layout #}
-    <div class="container">
-      <div class="row">
-        <div class="one-third column">
-          <div class="card">
-            <span class="lnr lnr-cloud"></span>
-            <h4 class="sans w500">Cloud-Native</h4>
-            <p>Utilizing the latest cloud-native technology to optimize IT systems and increase productivity.</p>
+  <head>
+    <title>dotmethod | Home</title>
+    <meta name="keywords" content="dotmethod blog mihai nueleanu developer engineer blog"/>
+    <meta
+      name="description"
+      content='I am the kind of person that simply "gets things done", which is something I take great pride in. I pay high
+        attention to details and I make the most of the time and resources I`m given to create the best possible outcome.'/>
+    <link rel="canonical" href="https://dotmethod.me"/>
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    {% include "favicon.njk" %}
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/skeleton.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/prism.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/linear-icon.css"/>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Serif+Text:400,400i|Open+Sans:400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body class="landing">
+    {% include 'header.njk' %}
+    {% include 'landing/top.njk' %}
+    <div class="content">
+      <div class="latest-posts">
+        <h2>Latest posts</h2>
+        {%- for post in collections.published | reverse -%}
+          <div class="latest-posts__item">
+            <span class="date">{{ post.date | readableDate }}
+            </span>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
           </div>
-        </div>
-        <div class="one-third column">
-          <div class="card">
-            <span class="lnr lnr-bicycle"></span>
-            <h4 class="sans w500">Agile</h4>
-            <p>Flexible and adaptable approach to deliver solutions that meet the unique needs of each client.</p>
-          </div>
-        </div>
-        <div class="one-third column">
-          <div class="card">
-            <span class="lnr lnr-magic-wand"></span>
-            <h4 class="sans w500">Versatile</h4>
-            <p>Expertize in a wide range of buzzwords: DevOps, backend, frontend, automated testing, CI/CD and more</p>
-          </div>
-        </div>
+        {%- endfor -%}
       </div>
+      {% include 'brief.njk' %}
     </div>
-  </div>
-
-  <div class="content">
-
-    <div class="latest-posts">
-      <h2>Latest posts</h2>
-      {%- for post in collections.published | reverse -%}
-      <div class="latest-posts__item">
-        <span class="date">{{post.date | readableDate}} </span>
-        <a href="{{post.url}}">{{ post.data.title }}</a>
-      </div>
-      {%- endfor -%}
-    </div>
-
-    {% include 'brief.njk' %}
-  </div>
-
-</body>
-
+  </body>
 </html>
