@@ -1,3 +1,12 @@
+# [1.46.0](https://github.com/MihaiNueleanu/blog/compare/1.45.0...1.46.0) (2023-03-23)
+
+
+### Features
+
+* latest experience in resume ([8fb8473](https://github.com/MihaiNueleanu/blog/commit/8fb84738523322e3e9d0f00f6c142b63af5bb7a8))
+
+
+
 # [1.45.0](https://github.com/MihaiNueleanu/blog/compare/1.44.0...1.45.0) (2023-01-29)
 
 
@@ -31,10 +40,6 @@
 ### Features
 
 * update landing page ([ab3184a](https://github.com/MihaiNueleanu/blog/commit/ab3184a0c195c96a717063fe150521cb9a9b94c9))
-
-
-
-## [1.41.1](https://github.com/MihaiNueleanu/blog/compare/1.41.0...1.41.1) (2022-10-31)
 
 
 
