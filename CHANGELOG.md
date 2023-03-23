@@ -1,3 +1,12 @@
+# [1.47.0](https://github.com/MihaiNueleanu/blog/compare/1.46.0...1.47.0) (2023-03-23)
+
+
+### Features
+
+* update contact detail on resume ([3001fef](https://github.com/MihaiNueleanu/blog/commit/3001fef38a7daf5745b209abd50c51c41f764284))
+
+
+
 # [1.46.0](https://github.com/MihaiNueleanu/blog/compare/1.45.0...1.46.0) (2023-03-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * new dotmethod landing page ([14e8d4d](https://github.com/MihaiNueleanu/blog/commit/14e8d4d2585665b9f4ea6f51deb834076d8b4976))
-
-
-
-# [1.42.0](https://github.com/MihaiNueleanu/blog/compare/1.41.1...1.42.0) (2023-01-29)
-
-
-### Features
-
-* update landing page ([ab3184a](https://github.com/MihaiNueleanu/blog/commit/ab3184a0c195c96a717063fe150521cb9a9b94c9))
 
 
 
