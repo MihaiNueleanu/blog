@@ -1,15 +1,21 @@
 .button {
   text-decoration: none;
   background: none transparent;
-  border: 1px solid black;
+  border: 1.5px solid black;
   padding: 8px 16px;
   border-radius: 0;
   font-size: 16px;
   line-height: 20px;
   min-height: 50px;
+  background: #fff;
+  cursor: pointer;
 
   &:focus {
     outline: 2px solid #000;
+  }
+
+  &:hover {
+    background: #f9f9f9;
   }
 
   &-primary,

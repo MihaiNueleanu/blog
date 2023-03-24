@@ -12,6 +12,9 @@
   <body class="landing">
     {% include 'header.njk' %}
     {% include 'landing/top.njk' %}
+
+    {% include 'contact/contact.njk' %}
+
     <div class="content">
       <div class="latest-posts">
         <h2>Latest posts</h2>
@@ -23,6 +26,7 @@
           </div>
         {%- endfor -%}
       </div>
+
       {% include 'brief.njk' %}
     </div>
   </body>

@@ -199,6 +199,26 @@ blockquote {
   font-weight: 500;
 }
 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  border-width: 1.5px;
+
+  &:focus {
+    border-width: 1.5px !important;
+  }
+}
+
+textarea {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 @import "./content";
 @import "./button";
 @import "./blog";
@@ -207,3 +227,5 @@ blockquote {
 @import "./grid";
 @import "./pill";
 @import "./landing";
+@import "./contact-form";
+@import "./loader";

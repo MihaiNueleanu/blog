@@ -1,0 +1,122 @@
+<div class="contact-form-wrapper" id="contact-form-wrapper">
+
+    <div class="container" >
+        <div class="contact-form" v-if="!submitted">
+
+            <div class="left">
+                <h2>Get in touch</h2>
+                <p>If you want to reach out you can either drop me a message right here, or 
+                go to the <a href="/contact">contact page</a> to find more ways to get in touch.</p>
+            </div>
+
+            <div class="right">
+
+                <label for="email">Your email</label>
+                <input type="email" id="email" v-model="email" placeholder="Enter your email..." ref="emailfield">
+                <div class="error" v-if="emailError" v-text="emailError"></div>
+
+                <label for="message">Message</label>
+                <textarea id="message" v-model="message" @keyup="resize" ref="textarea" placeholder="What would you like to talk about?" ref="messagefield"></textarea>
+                <div class="error" v-if="messageError" v-text="messageError"></div>
+
+                <button type="button" class="button" @click="sendMessage" :class="{ loading: sendingComment }">
+                    <div class="lds-ripple">
+                        <div></div>
+                        <div></div>
+                    </div>                    
+                    Send
+                </button>
+            </div>
+        </div>
+
+        <div v-else>
+            <div class="success" ref="success">
+                <h2>Thank you!</h2>
+                <p>Your message has been sent. I will get back to you as soon as possible.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script>
+    const base = "https://api.dotmethod.me";
+
+    function validateEmail(email) {
+        return String(email)
+            .toLowerCase()
+            .match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+    };
+
+    const app = new Vue({
+        el: "#contact-form-wrapper",
+        data: {
+            email: "",
+            message: "",
+            sendingComment: false,
+            submitted: false,
+            emailError: "",
+            messageError: ""
+        },
+        async mounted() {},
+        methods: {
+            async resize() {
+                const textarea = this.$refs.textarea;
+                textarea.style.height = "auto";
+                textarea.style.height = textarea.scrollHeight + "px";
+            },
+            validate() {
+                if (validateEmail(this.email) == null) {
+                    this.emailError = "Please enter a valid email address";
+                } else {
+                    this.emailError = "";
+                }
+
+                if (this.message.length < 10) {
+                    this.messageError = "Would prefer a message longer than 10 characters :)";
+                } else {
+                    this.messageError = "";
+                }
+
+                return this.emailError == "" && this.messageError == "";
+
+            },
+            async sendMessage() {
+                if (this.sendingComment) 
+                    return;
+                
+                if (!this.validate()) {
+                    return
+                }
+                // reset
+
+                if (this.emailError || this.messageError) 
+                    return;
+                
+                this.sendingComment = true;
+                const url = `${base}/api/message`;
+                const payload = {};
+                const response = await fetch(url, {
+                    method: "POST",
+                    body: JSON.stringify({from_email: this.email, body: this.message, subject: "Dotmethod.me - Contact form"})
+                });
+
+                this.sendingComment = false;
+                this.submitted = true;
+
+                this.email = "";
+                this.message = "";
+
+                this
+                    .$refs
+                    .success
+                    .scrollIntoView({behavior: "smooth", block: "center"});
+            }
+        },
+        computed: {
+            canSubmit() {
+                return this.message.name && this.message.body;
+            }
+        }
+    });
+</script>

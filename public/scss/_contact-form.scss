@@ -1,0 +1,85 @@
+.contact-form-wrapper .success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form-wrapper {
+  background: rgba(0, 0, 0, 0.03);
+  margin-bottom: 10rem;
+  padding: 5rem 0;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 700px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contact-form-wrapper p {
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+.contact-form textarea {
+  overflow: hidden;
+  resize: none;
+  transition: all 0.2s ease;
+}
+
+.contact-form .left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5rem;
+}
+
+.contact-form .left h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-form .left p {
+  margin-bottom: 2rem;
+}
+
+.contact-form .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form-wrapper .loading {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  cursor: default;
+}
+
+.contact-form-wrapper .lds-ripple {
+  opacity: 0;
+  transition: all 0.2s ease;
+  margin-left: -30px;
+  margin-right: 10px;
+}
+
+.contact-form-wrapper .loading .lds-ripple {
+  opacity: 1;
+}
+
+.contact-form .error {
+  color: rgb(195, 99, 99);
+  font-size: 0.8em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
