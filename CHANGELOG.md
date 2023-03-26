@@ -1,3 +1,12 @@
+## [1.51.1](https://github.com/MihaiNueleanu/blog/compare/1.51.0...1.51.1) (2023-03-26)
+
+
+### Bug Fixes
+
+* api base path ([0f1ffe0](https://github.com/MihaiNueleanu/blog/commit/0f1ffe0ddc228fc85b26883caf640e12c17420f2))
+
+
+
 # [1.51.0](https://github.com/MihaiNueleanu/blog/compare/1.50.0...1.51.0) (2023-03-26)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * contact box on landing page ([4cebbf1](https://github.com/MihaiNueleanu/blog/commit/4cebbf12a046d421bf1d4f1db2319a4b1277cb80))
-
-
-
-# [1.47.0](https://github.com/MihaiNueleanu/blog/compare/1.46.0...1.47.0) (2023-03-23)
-
-
-### Features
-
-* update contact detail on resume ([3001fef](https://github.com/MihaiNueleanu/blog/commit/3001fef38a7daf5745b209abd50c51c41f764284))
 
 
 
