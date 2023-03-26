@@ -1,3 +1,12 @@
+## [1.51.2](https://github.com/MihaiNueleanu/blog/compare/1.51.1...1.51.2) (2023-03-26)
+
+
+### Bug Fixes
+
+* urls to libraries in admin pages ([5ddcb6f](https://github.com/MihaiNueleanu/blog/commit/5ddcb6f85dc41b710be37a181406b86e952d0242))
+
+
+
 ## [1.51.1](https://github.com/MihaiNueleanu/blog/compare/1.51.0...1.51.1) (2023-03-26)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * header containing custom analytics code ([8cd0412](https://github.com/MihaiNueleanu/blog/commit/8cd0412dfc01b52297fdba49696c7b7f3435b52d))
-
-
-
-# [1.48.0](https://github.com/MihaiNueleanu/blog/compare/1.47.0...1.48.0) (2023-03-24)
-
-
-### Features
-
-* contact box on landing page ([4cebbf1](https://github.com/MihaiNueleanu/blog/commit/4cebbf12a046d421bf1d4f1db2319a4b1277cb80))
 
 
 
