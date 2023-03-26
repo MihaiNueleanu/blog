@@ -1,46 +1,153 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Line Chart Example</title>
+    <title>Site analytics</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      table {
+        border: 1px solid #ddd;
+        border-collapse: collapse;
+      }
+
+      .two-cols {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .two-cols > div {
+        flex: 1;
+        padding: 0 10px;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
-      <div class="timerange">
-        <button @click="()=>fetchData(7)">Last 7 days</button>
-        <button @click="()=>fetchData(30)">Last 30 days</button>
-        <button @click="()=>fetchData(90)">Last 90 days</button>
+      <div>
+        <button @click="fetchData(7)">7 days</button>
+        <button @click="fetchData(14)">14 days</button>
+        <button @click="fetchData(30)">30 days</button>
       </div>
-      <canvas ref="chart" height="400"></canvas>
+      <div>
+        <canvas ref="chart" width="800" height="400"></canvas>
+      </div>
+
+      <br />
+      <br />
+      <div class="two-cols">
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Page</th>
+                <th>Hits</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(item, index) in hitsPerPageData" :key="index">
+                <td v-text="item._id.path"></td>
+                <td v-text="item.count"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Page</th>
+                <th>Unique Sessions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="(item, index) in uniqueSessionsPerPageData"
+                :key="index"
+              >
+                <td v-text="item._id.path"></td>
+                <td v-text="item.count"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
 
     <script>
-      const baseUrl = "https://api.dotmethod.me";
+      //   const baseUrl = "https://api.dotmethod.me";
+      const baseUrl = "http://localhost:8000";
       new Vue({
         el: "#app",
-        data: {
-          chartData: null,
+        data() {
+          return {
+            numberOfDays: 7,
+            chart: null,
+            chartData: null,
+            hitsPerPageData: [],
+            uniqueSessionsPerPageData: [],
+          };
         },
         mounted() {
           this.fetchData();
         },
         methods: {
-          fetchData() {
-            fetch(`${baseUrl}/admin/api/sessions_per_day`)
-              .then((response) => response.json())
-              .then((data) => {
-                this.chartData = data;
-                this.renderChart();
-              });
+          fetchData(days = 7) {
+            this.numberOfDays = days;
+            this.fetchSessionsPerDay(days).then((data) => {
+              this.chartData = data;
+              this.renderChart();
+            });
+            this.fetchHitsPerPage(days).then((data) => {
+              this.hitsPerPageData = data;
+              console.log(data);
+            });
+            this.fetchUniqueSessionsPerPage(days).then((data) => {
+              this.uniqueSessionsPerPageData = data;
+            });
+          },
+          fetchSessionsPerDay(days = 7) {
+            const url = `${baseUrl}/admin/api/sessions_per_day?days=${days}`;
+            return fetch(url).then((response) => response.json());
+          },
+          fetchHitsPerPage(days = 7) {
+            const url = `${baseUrl}/admin/api/hits_per_page?days=${days}`;
+            return fetch(url).then((response) => response.json());
+          },
+          fetchUniqueSessionsPerPage(days = 7) {
+            const url = `${baseUrl}/admin/api/unique_sessions_per_page?days=${days}`;
+            return fetch(url).then((response) => response.json());
           },
           renderChart() {
+            if (this.chart) {
+              this.chart.destroy();
+            }
+
             const ctx = this.$refs.chart.getContext("2d");
-            const always7DaysArray = Array.from({ length: 7 }, (_, i) => {
-              const d = new Date();
-              d.setDate(d.getDate() - i);
-              return d;
-            })
+            const always7DaysArray = Array.from(
+              { length: this.numberOfDays },
+              (_, i) => {
+                const d = new Date();
+                d.setDate(d.getDate() - i);
+                return d;
+              }
+            )
               .reverse()
               .map((d) => {
                 const date = this.chartData.find(
@@ -61,7 +168,7 @@
                 );
               });
 
-            new Chart(ctx, {
+            this.chart = new Chart(ctx, {
               type: "line",
               data: {
                 labels: always7DaysArray.map(
@@ -78,17 +185,8 @@
                 ],
               },
               options: {
-                responsive: true,
+                responsive: false,
                 maintainAspectRatio: false,
-                scales: {
-                  yAxes: [
-                    {
-                      ticks: {
-                        beginAtZero: true,
-                      },
-                    },
-                  ],
-                },
               },
             });
           },
