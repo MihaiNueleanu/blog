@@ -1,3 +1,12 @@
+# [1.50.0](https://github.com/MihaiNueleanu/blog/compare/1.49.0...1.50.0) (2023-03-26)
+
+
+### Features
+
+* hits and sessions per day ([2caab01](https://github.com/MihaiNueleanu/blog/commit/2caab01009566efa8a4bacf9ecbc6b4d08ca8338))
+
+
+
 # [1.49.0](https://github.com/MihaiNueleanu/blog/compare/1.48.0...1.49.0) (2023-03-26)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * latest experience in resume ([8fb8473](https://github.com/MihaiNueleanu/blog/commit/8fb84738523322e3e9d0f00f6c142b63af5bb7a8))
-
-
-
-# [1.45.0](https://github.com/MihaiNueleanu/blog/compare/1.44.0...1.45.0) (2023-01-29)
-
-
-### Features
-
-* just enough architecture publish ([fcd7a04](https://github.com/MihaiNueleanu/blog/commit/fcd7a04a406fbd5d384bcba7966d2bb9f070521d))
 
 
 
