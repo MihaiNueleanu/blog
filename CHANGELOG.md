@@ -1,3 +1,12 @@
+# [1.49.0](https://github.com/MihaiNueleanu/blog/compare/1.48.0...1.49.0) (2023-03-26)
+
+
+### Features
+
+* header containing custom analytics code ([8cd0412](https://github.com/MihaiNueleanu/blog/commit/8cd0412dfc01b52297fdba49696c7b7f3435b52d))
+
+
+
 # [1.48.0](https://github.com/MihaiNueleanu/blog/compare/1.47.0...1.48.0) (2023-03-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * just enough architecture publish ([fcd7a04](https://github.com/MihaiNueleanu/blog/commit/fcd7a04a406fbd5d384bcba7966d2bb9f070521d))
-
-
-
-# [1.44.0](https://github.com/MihaiNueleanu/blog/compare/1.43.0...1.44.0) (2023-01-29)
-
-
-### Features
-
-* new contact page ([8500496](https://github.com/MihaiNueleanu/blog/commit/850049629cd72eb4875ba0c3f725866aa2ce069a))
 
 
 
