@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Site analytics</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+    <script src="/js/vue@2.6.14.js"></script>
+    <script src="/js/chart.js@4.2.1.js"></script>
 
     <style>
       body {
@@ -116,7 +116,6 @@
             });
             this.fetchHitsPerPage(days).then((data) => {
               this.hitsPerPageData = data;
-              console.log(data);
             });
             this.fetchUniqueSessionsPerPage(days).then((data) => {
               this.uniqueSessionsPerPageData = data;
