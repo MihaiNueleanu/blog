@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Line Chart Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="timerange">
+        <button @click="()=>fetchData(7)">Last 7 days</button>
+        <button @click="()=>fetchData(30)">Last 30 days</button>
+        <button @click="()=>fetchData(90)">Last 90 days</button>
+      </div>
+      <canvas ref="chart" height="400"></canvas>
+    </div>
+
+    <script>
+      const baseUrl = "https://api.dotmethod.me";
+      new Vue({
+        el: "#app",
+        data: {
+          chartData: null,
+        },
+        mounted() {
+          this.fetchData();
+        },
+        methods: {
+          fetchData() {
+            fetch(`${baseUrl}/admin/api/sessions_per_day`)
+              .then((response) => response.json())
+              .then((data) => {
+                this.chartData = data;
+                this.renderChart();
+              });
+          },
+          renderChart() {
+            const ctx = this.$refs.chart.getContext("2d");
+            const always7DaysArray = Array.from({ length: 7 }, (_, i) => {
+              const d = new Date();
+              d.setDate(d.getDate() - i);
+              return d;
+            })
+              .reverse()
+              .map((d) => {
+                const date = this.chartData.find(
+                  (item) =>
+                    item._id.year === d.getFullYear() &&
+                    item._id.month === d.getMonth() + 1 &&
+                    item._id.day === d.getDate()
+                );
+                return (
+                  date || {
+                    _id: {
+                      year: d.getFullYear(),
+                      month: d.getMonth() + 1,
+                      day: d.getDate(),
+                    },
+                    count: 0,
+                  }
+                );
+              });
+
+            new Chart(ctx, {
+              type: "line",
+              data: {
+                labels: always7DaysArray.map(
+                  (d) => `${d._id.day}/${d._id.month}`
+                ),
+                datasets: [
+                  {
+                    label: "Number of Visitors",
+                    data: always7DaysArray.map((d) => d.count),
+                    backgroundColor: "rgba(54, 162, 235, 0.2)",
+                    borderColor: "rgba(54, 162, 235, 1)",
+                    borderWidth: 1,
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                  yAxes: [
+                    {
+                      ticks: {
+                        beginAtZero: true,
+                      },
+                    },
+                  ],
+                },
+              },
+            });
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
