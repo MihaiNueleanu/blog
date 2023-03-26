@@ -1,3 +1,17 @@
+# [1.51.0](https://github.com/MihaiNueleanu/blog/compare/1.50.0...1.51.0) (2023-03-26)
+
+
+### Bug Fixes
+
+* api url instead of local ([7d98600](https://github.com/MihaiNueleanu/blog/commit/7d98600bfe9955c5c6153110959be70c9a14b225))
+
+
+### Features
+
+* local libraries rather than remote ([6983a65](https://github.com/MihaiNueleanu/blog/commit/6983a65d7956253578cf6ef3ad444c9830016c6e))
+
+
+
 # [1.50.0](https://github.com/MihaiNueleanu/blog/compare/1.49.0...1.50.0) (2023-03-26)
 
 
@@ -31,15 +45,6 @@
 ### Features
 
 * update contact detail on resume ([3001fef](https://github.com/MihaiNueleanu/blog/commit/3001fef38a7daf5745b209abd50c51c41f764284))
-
-
-
-# [1.46.0](https://github.com/MihaiNueleanu/blog/compare/1.45.0...1.46.0) (2023-03-23)
-
-
-### Features
-
-* latest experience in resume ([8fb8473](https://github.com/MihaiNueleanu/blog/commit/8fb84738523322e3e9d0f00f6c142b63af5bb7a8))
 
 
 
