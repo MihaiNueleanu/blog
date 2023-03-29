@@ -1,3 +1,13 @@
+## [1.51.4](https://github.com/MihaiNueleanu/blog/compare/1.51.3...1.51.4) (2023-03-29)
+
+
+### Bug Fixes
+
+* console log ([5e9fefd](https://github.com/MihaiNueleanu/blog/commit/5e9fefd2e6bb11bcd54042c546f79e8af90d1658))
+* sitemap json slug ([931c58b](https://github.com/MihaiNueleanu/blog/commit/931c58b749b217c70f069bef2cba3da3fe756038))
+
+
+
 ## [1.51.3](https://github.com/MihaiNueleanu/blog/compare/1.51.2...1.51.3) (2023-03-29)
 
 
@@ -36,15 +46,6 @@
 ### Features
 
 * local libraries rather than remote ([6983a65](https://github.com/MihaiNueleanu/blog/commit/6983a65d7956253578cf6ef3ad444c9830016c6e))
-
-
-
-# [1.50.0](https://github.com/MihaiNueleanu/blog/compare/1.49.0...1.50.0) (2023-03-26)
-
-
-### Features
-
-* hits and sessions per day ([2caab01](https://github.com/MihaiNueleanu/blog/commit/2caab01009566efa8a4bacf9ecbc6b4d08ca8338))
 
 
 
