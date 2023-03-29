@@ -1,3 +1,12 @@
+## [1.51.3](https://github.com/MihaiNueleanu/blog/compare/1.51.2...1.51.3) (2023-03-29)
+
+
+### Bug Fixes
+
+* sitemap xml ([e1d9517](https://github.com/MihaiNueleanu/blog/commit/e1d95174035d74735be7b7f37e710e5109182504))
+
+
+
 ## [1.51.2](https://github.com/MihaiNueleanu/blog/compare/1.51.1...1.51.2) (2023-03-26)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * hits and sessions per day ([2caab01](https://github.com/MihaiNueleanu/blog/commit/2caab01009566efa8a4bacf9ecbc6b4d08ca8338))
-
-
-
-# [1.49.0](https://github.com/MihaiNueleanu/blog/compare/1.48.0...1.49.0) (2023-03-26)
-
-
-### Features
-
-* header containing custom analytics code ([8cd0412](https://github.com/MihaiNueleanu/blog/commit/8cd0412dfc01b52297fdba49696c7b7f3435b52d))
 
 
 
