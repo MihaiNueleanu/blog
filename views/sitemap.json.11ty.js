@@ -2,10 +2,11 @@ module.exports = function (data) {
   const result = data.collections.post
     .filter((post) => post.template.fileSlugStr != "uses")
     .map((post) => {
-      const slug = post.template.fileSlugStr;
+      console.log(post.template);
+      const slug = post.template.filePathStem;
       const title = post.template.frontMatter.data.title;
       const date = post.date;
-      const postUrl = "https://dotmethod.me/posts/" + slug;
+      const postUrl = "https://dotmethod.me" + slug;
       const header = `# ${title}\n\n_Originally posted on [dotmethod.me](${postUrl})_\n\n`;
 
       // clean content
