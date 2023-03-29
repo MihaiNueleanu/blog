@@ -2,7 +2,6 @@ module.exports = function (data) {
   const result = data.collections.post
     .filter((post) => post.template.fileSlugStr != "uses")
     .map((post) => {
-      console.log(post.template);
       const slug = post.template.filePathStem;
       const title = post.template.frontMatter.data.title;
       const date = post.date;
