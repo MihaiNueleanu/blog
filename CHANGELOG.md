@@ -1,3 +1,12 @@
+# [1.53.0](https://github.com/MihaiNueleanu/blog/compare/1.52.0...1.53.0) (2023-06-29)
+
+
+### Features
+
+* adding analytics on all pages ([1e080a9](https://github.com/MihaiNueleanu/blog/commit/1e080a9b92390bb9e073d1c6ecc9fdb7b7d3d68c))
+
+
+
 # [1.52.0](https://github.com/MihaiNueleanu/blog/compare/1.51.4...1.52.0) (2023-06-29)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * urls to libraries in admin pages ([5ddcb6f](https://github.com/MihaiNueleanu/blog/commit/5ddcb6f85dc41b710be37a181406b86e952d0242))
-
-
-
-## [1.51.1](https://github.com/MihaiNueleanu/blog/compare/1.51.0...1.51.1) (2023-03-26)
-
-
-### Bug Fixes
-
-* api base path ([0f1ffe0](https://github.com/MihaiNueleanu/blog/commit/0f1ffe0ddc228fc85b26883caf640e12c17420f2))
 
 
 
