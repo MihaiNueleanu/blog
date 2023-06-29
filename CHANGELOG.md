@@ -1,3 +1,12 @@
+# [1.52.0](https://github.com/MihaiNueleanu/blog/compare/1.51.4...1.52.0) (2023-06-29)
+
+
+### Features
+
+* adding new tracking script ([32485cc](https://github.com/MihaiNueleanu/blog/commit/32485cc9c87778174f13bb53aaad558a9bdb4d41))
+
+
+
 ## [1.51.4](https://github.com/MihaiNueleanu/blog/compare/1.51.3...1.51.4) (2023-03-29)
 
 
@@ -32,20 +41,6 @@
 ### Bug Fixes
 
 * api base path ([0f1ffe0](https://github.com/MihaiNueleanu/blog/commit/0f1ffe0ddc228fc85b26883caf640e12c17420f2))
-
-
-
-# [1.51.0](https://github.com/MihaiNueleanu/blog/compare/1.50.0...1.51.0) (2023-03-26)
-
-
-### Bug Fixes
-
-* api url instead of local ([7d98600](https://github.com/MihaiNueleanu/blog/commit/7d98600bfe9955c5c6153110959be70c9a14b225))
-
-
-### Features
-
-* local libraries rather than remote ([6983a65](https://github.com/MihaiNueleanu/blog/commit/6983a65d7956253578cf6ef3ad444c9830016c6e))
 
 
 
