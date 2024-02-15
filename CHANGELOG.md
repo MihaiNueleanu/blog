@@ -1,3 +1,12 @@
+## [1.54.1](https://github.com/MihaiNueleanu/blog/compare/1.54.0...1.54.1) (2024-02-15)
+
+
+### Bug Fixes
+
+* lowercase ([2d51e02](https://github.com/MihaiNueleanu/blog/commit/2d51e0289366b9f9db2a6d820859aba8e4e0959a))
+
+
+
 # [1.54.0](https://github.com/MihaiNueleanu/blog/compare/1.53.0...1.54.0) (2024-02-15)
 
 
@@ -32,15 +41,6 @@
 
 * console log ([5e9fefd](https://github.com/MihaiNueleanu/blog/commit/5e9fefd2e6bb11bcd54042c546f79e8af90d1658))
 * sitemap json slug ([931c58b](https://github.com/MihaiNueleanu/blog/commit/931c58b749b217c70f069bef2cba3da3fe756038))
-
-
-
-## [1.51.3](https://github.com/MihaiNueleanu/blog/compare/1.51.2...1.51.3) (2023-03-29)
-
-
-### Bug Fixes
-
-* sitemap xml ([e1d9517](https://github.com/MihaiNueleanu/blog/commit/e1d95174035d74735be7b7f37e710e5109182504))
 
 
 
