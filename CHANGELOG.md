@@ -1,3 +1,12 @@
+## [1.54.2](https://github.com/MihaiNueleanu/blog/compare/1.54.1...1.54.2) (2024-02-15)
+
+
+### Bug Fixes
+
+* reference to other step in flow ([4dc0f18](https://github.com/MihaiNueleanu/blog/commit/4dc0f183560ced4a83c8c703990b541286ef8dd4))
+
+
+
 ## [1.54.1](https://github.com/MihaiNueleanu/blog/compare/1.54.0...1.54.1) (2024-02-15)
 
 
@@ -31,16 +40,6 @@
 ### Features
 
 * adding new tracking script ([32485cc](https://github.com/MihaiNueleanu/blog/commit/32485cc9c87778174f13bb53aaad558a9bdb4d41))
-
-
-
-## [1.51.4](https://github.com/MihaiNueleanu/blog/compare/1.51.3...1.51.4) (2023-03-29)
-
-
-### Bug Fixes
-
-* console log ([5e9fefd](https://github.com/MihaiNueleanu/blog/commit/5e9fefd2e6bb11bcd54042c546f79e8af90d1658))
-* sitemap json slug ([931c58b](https://github.com/MihaiNueleanu/blog/commit/931c58b749b217c70f069bef2cba3da3fe756038))
 
 
 
