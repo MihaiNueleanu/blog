@@ -55,7 +55,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/mihainueleanu/blog:latest,ghcr.io/mihainueleanu/blog:${{ needs.tag.outputs.tag }}
+          tags: ghcr.io/mihainueleanu/blog:latest,ghcr.io/mihainueleanu/blog:${{ steps.versionBump.outputs.tag }}
           cache-from: type=registry,ref=ghcr.io/mihainueleanu/blog:latest
           cache-to: type=inline
 
