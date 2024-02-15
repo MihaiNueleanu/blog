@@ -1,3 +1,12 @@
+# [1.54.0](https://github.com/MihaiNueleanu/blog/compare/1.53.0...1.54.0) (2024-02-15)
+
+
+### Features
+
+* change to ghr instead of dockerhub ([9127a01](https://github.com/MihaiNueleanu/blog/commit/9127a01db132e94cf81d9316dd45edd469ca588d))
+
+
+
 # [1.53.0](https://github.com/MihaiNueleanu/blog/compare/1.52.0...1.53.0) (2023-06-29)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * sitemap xml ([e1d9517](https://github.com/MihaiNueleanu/blog/commit/e1d95174035d74735be7b7f37e710e5109182504))
-
-
-
-## [1.51.2](https://github.com/MihaiNueleanu/blog/compare/1.51.1...1.51.2) (2023-03-26)
-
-
-### Bug Fixes
-
-* urls to libraries in admin pages ([5ddcb6f](https://github.com/MihaiNueleanu/blog/commit/5ddcb6f85dc41b710be37a181406b86e952d0242))
 
 
 
