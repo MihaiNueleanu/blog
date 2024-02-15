@@ -1,3 +1,12 @@
+## [1.54.3](https://github.com/MihaiNueleanu/blog/compare/1.54.2...1.54.3) (2024-02-15)
+
+
+### Bug Fixes
+
+* tag replacement ([3d5deef](https://github.com/MihaiNueleanu/blog/commit/3d5deef384f883b70896d559b69aebe9664d6406))
+
+
+
 ## [1.54.2](https://github.com/MihaiNueleanu/blog/compare/1.54.1...1.54.2) (2024-02-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * adding analytics on all pages ([1e080a9](https://github.com/MihaiNueleanu/blog/commit/1e080a9b92390bb9e073d1c6ecc9fdb7b7d3d68c))
-
-
-
-# [1.52.0](https://github.com/MihaiNueleanu/blog/compare/1.51.4...1.52.0) (2023-06-29)
-
-
-### Features
-
-* adding new tracking script ([32485cc](https://github.com/MihaiNueleanu/blog/commit/32485cc9c87778174f13bb53aaad558a9bdb4d41))
 
 
 
