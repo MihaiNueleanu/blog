@@ -55,8 +55,8 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/MihaiNueleanu/blog:latest,ghcr.io/MihaiNueleanu/blog:${{ needs.tag.outputs.tag }}
-          cache-from: type=registry,ref=ghcr.io/MihaiNueleanu/blog:latest
+          tags: ghcr.io/mihainueleanu/blog:latest,ghcr.io/mihainueleanu/blog:${{ needs.tag.outputs.tag }}
+          cache-from: type=registry,ref=ghcr.io/mihainueleanu/blog:latest
           cache-to: type=inline
 
       # Deploy to kubernetes repo
