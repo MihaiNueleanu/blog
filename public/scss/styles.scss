@@ -1,3 +1,15 @@
+
+@use "./content";
+@use "./button";
+@use "./blog";
+@use "./columns";
+@use "./resume";
+@use "./grid";
+@use "./pill";
+@use "./landing";
+@use "./contact-form";
+@use "./loader";
+
 body,
 html {
   font-family: Georgia, serif;
@@ -218,14 +230,3 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-@import "./content";
-@import "./button";
-@import "./blog";
-@import "./columns";
-@import "./resume";
-@import "./grid";
-@import "./pill";
-@import "./landing";
-@import "./contact-form";
-@import "./loader";
