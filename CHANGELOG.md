@@ -1,3 +1,12 @@
+# [1.56.0](https://github.com/MihaiNueleanu/blog/compare/1.55.1...1.56.0) (2025-01-05)
+
+
+### Features
+
+* update landing page messaging + blog content ([0689a5e](https://github.com/MihaiNueleanu/blog/commit/0689a5e27e4db6764c6ebdb9172919dd0990da94))
+
+
+
 ## [1.55.1](https://github.com/MihaiNueleanu/blog/compare/1.55.0...1.55.1) (2025-01-05)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * reference to other step in flow ([4dc0f18](https://github.com/MihaiNueleanu/blog/commit/4dc0f183560ced4a83c8c703990b541286ef8dd4))
-
-
-
-## [1.54.1](https://github.com/MihaiNueleanu/blog/compare/1.54.0...1.54.1) (2024-02-15)
-
-
-### Bug Fixes
-
-* lowercase ([2d51e02](https://github.com/MihaiNueleanu/blog/commit/2d51e0289366b9f9db2a6d820859aba8e4e0959a))
 
 
 
