@@ -1,3 +1,12 @@
+# [1.55.0](https://github.com/MihaiNueleanu/blog/compare/1.54.3...1.55.0) (2025-01-05)
+
+
+### Features
+
+* update landing page and eleventy version ([14955ee](https://github.com/MihaiNueleanu/blog/commit/14955eeca19cf9b210417e925c19e20c1af7ac27))
+
+
+
 ## [1.54.3](https://github.com/MihaiNueleanu/blog/compare/1.54.2...1.54.3) (2024-02-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * change to ghr instead of dockerhub ([9127a01](https://github.com/MihaiNueleanu/blog/commit/9127a01db132e94cf81d9316dd45edd469ca588d))
-
-
-
-# [1.53.0](https://github.com/MihaiNueleanu/blog/compare/1.52.0...1.53.0) (2023-06-29)
-
-
-### Features
-
-* adding analytics on all pages ([1e080a9](https://github.com/MihaiNueleanu/blog/commit/1e080a9b92390bb9e073d1c6ecc9fdb7b7d3d68c))
 
 
 
