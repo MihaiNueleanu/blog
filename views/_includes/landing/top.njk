@@ -1,143 +1,144 @@
 <div class="landing-top">
-    <div class="hero">
-        <div class="two-col">
-            <div>
-                <h2>Maximizing your business <u>success</u> with technology</h2>
-                <p class="md">
-                    Software development can be difficult at times. With dotmethod, we 
-                    bring the expertise and passion to help you overcome the 
-                    obstacles and achieve your goals.
-                </p>
-            </div>
-            <div class="tagcloud"></div>
-        </div>
+  <div class="hero">
+    <div class="two-col">
+      <div>
+        <h2>Maximizing your business <u>success</u> with technology</h2>
+        <p class="md">
+          Software development can be difficult at times. But it doesn't have to
+          be a blocker. It takes knowledge, passion, and hard work to leverage
+          technology in the right way for your business. And that's what I do
+          best.
+        </p>
+      </div>
+      <div class="tagcloud"></div>
     </div>
-    {# create a 3 column layout #}
-    <div class="container">
-        <div class="row">
-            <div class="one-third column">
-                <div class="card">
-                    <span class="lnr lnr-cloud"></span>
-                    <h4 class="">Cloud-Native</h4>
-                    <p>
-                        Utilizing the latest cloud-native technology to optimize IT systems and increase productivity.
-                    </p>
-                </div>
-            </div>
-            <div class="one-third column">
-                <div class="card">
-                    <span class="lnr lnr-bicycle"></span>
-                    <h4 class="">Agile</h4>
-                    <p>
-                        Flexible and adaptable approach to deliver solutions that meet the unique needs of each
-                        client.
-                    </p>
-                </div>
-            </div>
-            <div class="one-third column">
-                <div class="card">
-                    <span class="lnr lnr-magic-wand"></span>
-                    <h4 class="">Versatile</h4>
-                    <p>
-                        Expertize in a wide range of buzzwords: DevOps, backend, frontend, automated testing, CI/CD and
-                        more
-                    </p>
-                </div>
-            </div>
+  </div>
+  {# create a 3 column layout #}
+  <div class="container">
+    <div class="row">
+      <div class="one-third column">
+        <div class="card">
+          <span class="lnr lnr-cloud"></span>
+          <h4 class="">Cloud-Native</h4>
+          <p>
+            Utilizing the latest cloud-native technology to optimize IT systems
+            and increase productivity.
+          </p>
         </div>
+      </div>
+      <div class="one-third column">
+        <div class="card">
+          <span class="lnr lnr-bicycle"></span>
+          <h4 class="">Agile</h4>
+          <p>
+            Flexible and adaptable approach to deliver solutions that meet the
+            unique needs of each client.
+          </p>
+        </div>
+      </div>
+      <div class="one-third column">
+        <div class="card">
+          <span class="lnr lnr-magic-wand"></span>
+          <h4 class="">Versatile</h4>
+          <p>
+            Expertize in a wide range of tech: DevOps, backend, frontend,
+            automated testing, CI/CD and more
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 <style>
-    .landing-top {
-        min-height: calc(100vh - 70px);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .landing-top .hero {
-        padding: 0 24px;
-        margin-bottom: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        text-align: center;
-    }
+  .landing-top {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .landing-top .hero {
+    padding: 0 24px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
 
-    .landing-top .container {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .landing-top .lnr {
-        display: block;
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
+  .landing-top .container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .landing-top .lnr {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 
+  .landing-top .two-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+  }
+
+  .landing-top .two-col div:first-child {
+    flex: 1;
+    margin-right: 40px;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .landing-top .two-col div:last-child {
+    width: 300px;
+    height: 300px;
+  }
+
+  .tagcloud {
+    user-select: none;
+  }
+
+  @media (max-width: 768px) {
     .landing-top .two-col {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 900px;
+      flex-direction: column;
     }
-
     .landing-top .two-col div:first-child {
-        flex: 1;
-        margin-right: 40px;
-        justify-content: center;
-        text-align: left;
+      margin-right: 0;
     }
-
-    .landing-top .two-col div:last-child {
-        width: 300px;
-        height: 300px;
-    }
-
-    .tagcloud {
-        user-select: none;
-    }
-
-    @media (max-width: 768px) {
-        .landing-top .two-col {
-            flex-direction: column;
-        }
-        .landing-top .two-col div:first-child {
-            margin-right: 0;
-        }
-        .landing-top .two-col div:last-child {}
-    }
+  }
 </style>
 <script type="text/javascript" src="/js/tagcloud.min.js"></script>
 <script type="text/javascript">
-    // self executing function here
-    (function () {
-        const container = ".tagcloud";
-        const texts = [
-            "Typescript",
-            "Nodejs",
-            "CSS",
-            "React",
-            "Vuejs",
-            "Dotnet",
-            "C#",
-            "React Native",
-            "Svelte",
-            "Kubernetes",
-            "ArgoCD",
-            "Docker",
-            "MongoDB",
-            "PostgreSQL",
-            "Redis",
-            "CI/CD",
-            "DevOps",
-            "Agile"
-        ];
-        const options = {
-            radius: 150
-        };
-        setTimeout(() => {
-            TagCloud(container, texts, options);
-        }, 10);
-    })();
+  // self executing function here
+  (function () {
+    const container = ".tagcloud";
+    const texts = [
+      "Typescript",
+      "Nodejs",
+      "CSS",
+      "React",
+      "Vuejs",
+      "Dotnet",
+      "C#",
+      "React Native",
+      "Svelte",
+      "Kubernetes",
+      "ArgoCD",
+      "Docker",
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "CI/CD",
+      "DevOps",
+      "Agile",
+    ];
+    const options = {
+      radius: 150,
+    };
+    setTimeout(() => {
+      TagCloud(container, texts, options);
+    }, 10);
+  })();
 </script>
